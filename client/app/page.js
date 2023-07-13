@@ -1,7 +1,10 @@
 import Navbar from '@/components/Navbar';
+import CTA from '@/sections/CTA';
 import Hero from '@/sections/Hero';
+import Historia from '@/sections/Historia';
 import Marcas from '@/sections/Marcas';
 import Solucoes from '@/sections/Solucoes';
+import Valores from '@/sections/Valores';
 import Image from 'next/image';
 
 export default function Home() {
@@ -9,8 +12,15 @@ export default function Home() {
     <main className="bg-white overflow-hidden">
       <Navbar />
       <Hero />
-      <Marcas />
+      <div className="bg-gray-200">
+        <Marcas />
+      </div>
       <Solucoes />
+      <Valores />
+      <div className="bg-gray-200">
+        <CTA />
+      </div>
+      <Historia />
     </main>
   );
 }

@@ -3,9 +3,7 @@ import Image from 'next/image';
 
 export default function Marcas() {
   return (
-    <div
-      className={`${styles.sectionWidth} ${styles.sectionPadding} bg-gray-100`}
-    >
+    <div className={`${styles.sectionWidth} ${styles.sectionPadding}`}>
       <div className="flex flex-row flex-nowrap items-center gap-20">
         <div className="MARCAS__TEXTOS flex flex-col gap-8 w-[270px]">
           <h1 className="text-gray-800 text-[40px] font-medium leading-[48px]">

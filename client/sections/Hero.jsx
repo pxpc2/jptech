@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className={`${styles.sectionWidth} ${styles.sectionPadding}`}>
+    <div className={`${styles.sectionWidth} ${styles.heroPadding}`}>
       <div className="flex flex-row flex-nowrap items-center gap-20">
         <div className="HERO__IMAGEM w-full">
           <Image
