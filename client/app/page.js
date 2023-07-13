@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 import CTA from '@/sections/CTA';
 import Hero from '@/sections/Hero';
@@ -21,6 +22,9 @@ export default function Home() {
         <CTA />
       </div>
       <Historia />
+      <div className="bg-gray-500">
+        <Footer />
+      </div>
     </main>
   );
 }

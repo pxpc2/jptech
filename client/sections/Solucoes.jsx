@@ -21,7 +21,7 @@ export default function Solucoes() {
               nacional.
             </h1>
             <Image
-              src={'/Triangle.png'}
+              src={'/placeholder.svg'}
               alt="triangle"
               width={200}
               height={200}

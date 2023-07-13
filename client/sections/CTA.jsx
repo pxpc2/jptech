@@ -19,9 +19,9 @@ export default function CTA() {
         </div>
         <button
           className="w-[500px] h-[38px] rounded-sm
-          text-sm bg-blue-600 mt-8 text-white"
+          text-sm bg-white border-blue-600 border-[1px] mt-8 text-blue-600"
         >
-          Saiba Mais!
+          Agenda já uma solução
         </button>
       </div>
     </div>
