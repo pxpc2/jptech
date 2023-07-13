@@ -17,7 +17,7 @@ export default function Hero() {
           <h1 className="text-gray-800 text-[68px] font-semibold leading-[80px] w-[500px]">
             Seu parceiro em soluções tecnológicas
           </h1>
-          <p className="text-gray-800 text-[20px] leading-[32px] w-[500px] h-[135px]">
+          <p className="text-gray-500 text-[20px] leading-[32px] w-[500px] h-[135px]">
             Com um serviço excepcional, entrega pontual e suporte especializado,
             estamos prontos para ajudar as organizações a alcançarem seus
             objetivos e a enfrentarem os desafios tecnológicos da atualidade.

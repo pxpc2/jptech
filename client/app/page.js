@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Hero from '@/sections/Hero';
 import Marcas from '@/sections/Marcas';
+import Solucoes from '@/sections/Solucoes';
 import Image from 'next/image';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Marcas />
+      <Solucoes />
     </main>
   );
 }
