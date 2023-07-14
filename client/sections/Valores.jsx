@@ -1,4 +1,3 @@
-import ValueItem from '@/components/ValueItem';
 import { styles } from '@/styles';
 
 export default function Valores() {

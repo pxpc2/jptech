@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="navbar-social-buttons">
           <button
             className="w-[120px] h-[38px] rounded-sm
-          text-sm bg-blue-600 text-white"
+          text-sm bg-slate-200 border-blue-600 border-[1px]  text-blue-600"
           >
             Contato
           </button>
