@@ -13,7 +13,7 @@ export default function Navbar() {
           <ul className="w-full flex flex-row gap-8 items-center">
             {pages.map((page, index) => (
               <li key={index} className="">
-                <a href={page.route} className="text-sm text-black">
+                <a href={page.route} className="text-sm text-slate-200">
                   {page.name}
                 </a>
               </li>

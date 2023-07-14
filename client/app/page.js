@@ -10,19 +10,25 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="bg-white overflow-hidden">
-      <Navbar />
-      <Hero />
-      <div className="bg-gray-200">
+    <main className="overflow-hide">
+      <div className="bg-hero-navbar-img bg-cover bg-blend-darken bg-opacity-50">
+        <Navbar />
+        <Hero />
+      </div>
+      <div className="bg-slate-200">
         <Marcas />
       </div>
-      <Solucoes />
-      <Valores />
-      <div className="bg-gray-200">
+      <div className="bg-white">
+        <Solucoes />
+        <Valores />
+      </div>
+      <div className="bg-slate-200">
         <CTA />
       </div>
-      <Historia />
-      <div className="bg-gray-500">
+      <div className="bg-white">
+        <Historia />
+      </div>
+      <div className="bg-slate-400">
         <Footer />
       </div>
     </main>

@@ -2,7 +2,7 @@ import { styles } from '@/styles';
 
 export default function CTA() {
   return (
-    <div className={`${styles.sectionWidth} ${styles.sectionPadding}`}>
+    <div className={`${styles.sectionPadding} ${styles.sectionWidth}`}>
       <div className="flex flex-row flex-nowrap items-center gap-20 justify-between">
         <div className="flex flex-col flex-nowrap w-full">
           <div>
@@ -13,7 +13,7 @@ export default function CTA() {
           <div>
             <p>
               Tome sua decisão agora de falar com nois e não irá se arrepender
-              malandro.
+              MEU AMIGO.
             </p>
           </div>
         </div>

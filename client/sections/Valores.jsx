@@ -4,13 +4,13 @@ import { styles } from '@/styles';
 export default function Valores() {
   return (
     <div className={`${styles.sectionWidth} ${styles.sectionPadding}`}>
-      <div class="bg-white ">
-        <div class="mx-auto max-w-7xl px-6 lg:px-8">
-          <div class="mx-auto max-w-2xl lg:text-center">
-            <h2 class="text-base font-semibold leading-7 text-gray-500">
+      <div className="">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl lg:text-center">
+            <h2 className="text-base font-semibold leading-7 text-gray-500">
               Valores e Missão
             </h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               Os diferenciais que você precisa.
             </p>
             <p className="text-gray-500 text-[20px] leading-[32px] mt-6">
@@ -20,37 +20,37 @@ export default function Valores() {
               da atualidade.
             </p>
           </div>
-          <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-            <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
-              <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+            <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
-                      class="h-6 w-6 text-white"
+                      className="h-6 w-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
-                      stroke-width="1.5"
+                      strokeWidth="1.5"
                       stroke="currentColor"
                       aria-hidden="true"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
                       />
                     </svg>
                   </div>
                   Logística de frete
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-500">
                   Entrega em todo o território brasileiro com agilidade.
                 </dd>
               </div>
-              <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
-                      class="h-6 w-6 text-white"
+                      className="h-6 w-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
@@ -66,16 +66,16 @@ export default function Valores() {
                   </div>
                   Serviço de garantia
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-500">
                   Se estende a todo o território nacional com atendimento
                   on-site e remoto.
                 </dd>
               </div>
-              <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
-                      class="h-6 w-6 text-white"
+                      className="h-6 w-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
@@ -91,16 +91,16 @@ export default function Valores() {
                   </div>
                   Transparência
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-500">
                   Facilidade e agilidade na comunicação com clientes e
                   interessados
                 </dd>
               </div>
-              <div class="relative pl-16">
-                <dt class="text-base font-semibold leading-7 text-gray-900">
-                  <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+              <div className="relative pl-16">
+                <dt className="text-base font-semibold leading-7 text-gray-900">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
-                      class="h-6 w-6 text-white"
+                      className="h-6 w-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
@@ -116,7 +116,7 @@ export default function Valores() {
                   </div>
                   Marcas referência
                 </dt>
-                <dd class="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 text-gray-500">
                   Maiores marcas do mercado, tendo como principal parceiro
                   a&nbsp;
                   <span className="underline">Positivo</span>.
