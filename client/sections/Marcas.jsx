@@ -1,3 +1,4 @@
+import Button from '@/components/Button';
 import { styles } from '@/styles';
 import Image from 'next/image';
 
@@ -9,12 +10,12 @@ export default function Marcas() {
           <h1 className="text-gray-800 text-[40px] font-medium leading-[48px]">
             Trabalhamos com as maiores marcas do mercado.
           </h1>
-          <button
-            className="w-[270px] h-[38px] rounded-sm
-          text-sm bg-white border-blue-600 border-[1px] mt-8 text-blue-600"
-          >
-            Explorar
-          </button>
+          <Button
+            width={270}
+            msg={'Explorar'}
+            bgStyle={'white'}
+            textColor={'indigo-500'}
+          />
         </div>
         <div className="MARCAS__IMAGENS">
           <Image

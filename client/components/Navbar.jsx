@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { styles } from '../styles';
 import { pages } from '../utils/constants';
+import Button from './Button';
 
 export default function Navbar() {
   return (
@@ -21,12 +22,7 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-social-buttons">
-          <button
-            className="w-[120px] h-[38px] rounded-sm
-          text-sm bg-slate-200 border-blue-600 border-[1px]  text-blue-600"
-          >
-            Contato
-          </button>
+          <Button width={120} msg={'Suporte'} textColor={'slate-300'} />
         </div>
       </div>
     </div>

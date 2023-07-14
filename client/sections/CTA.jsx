@@ -1,3 +1,4 @@
+import Button from '@/components/Button';
 import { styles } from '@/styles';
 
 export default function CTA() {
@@ -17,12 +18,11 @@ export default function CTA() {
             </p>
           </div>
         </div>
-        <button
-          className="w-[500px] h-[38px] rounded-sm
-          text-sm bg-white border-blue-600 border-[1px] mt-8 text-blue-600"
-        >
-          Agenda já uma solução
-        </button>
+        <Button
+          width={500}
+          msg={'Agende já uma solução!'}
+          textColor={'indigo-600'}
+        />
       </div>
     </div>
   );

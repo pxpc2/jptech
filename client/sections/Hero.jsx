@@ -1,3 +1,4 @@
+import Button from '@/components/Button';
 import { styles } from '@/styles';
 import Image from 'next/image';
 
@@ -14,13 +15,9 @@ export default function Hero() {
             estamos prontos para ajudar as organizações a alcançarem seus
             objetivos e a enfrentarem os desafios tecnológicos da atualidade.
           </p>
-
-          <button
-            className="w-[250px] h-[38px] rounded-sm
-          text-sm bg-slate-200 border-blue-600 border-[1px] mt-8 text-blue-600 mb-24"
-          >
-            Saiba Mais!
-          </button>
+          <div className="mt-8 mb-24">
+            <Button width={250} msg={'Saiba Mais!'} textColor={'slate-300'} />
+          </div>
         </div>
         <div className="HERO__IMAGEM w-full"></div>
       </div>

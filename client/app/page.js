@@ -15,7 +15,7 @@ export default function Home() {
         <Navbar />
         <Hero />
       </div>
-      <div className="bg-slate-200">
+      <div className="bg-slate-100">
         <Marcas />
       </div>
       <div className="bg-white">
