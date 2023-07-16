@@ -1,11 +1,18 @@
+'use client';
+
 import Image from 'next/image';
 import { styles } from '../styles';
 import { pages } from '../utils/constants';
 import Button from './Button';
+import { motion } from 'framer-motion';
+import { navVariants } from '@/utils/motion';
 
 export default function Navbar() {
   return (
-    <div
+    <motion.div
+      variants={navVariants}
+      initial="hidden"
+      whileInView={'show'}
       className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] py-4 rleative`}
     >
       <div className="flex flex-nowrap items-center justify-between">
@@ -15,8 +22,11 @@ export default function Navbar() {
         <div className="navbar-menu">
           <ul className="w-full flex flex-row gap-8 items-center">
             {pages.map((page, index) => (
-              <li key={index} className="">
-                <a href={page.route} className="text-sm text-slate-200">
+              <li
+                key={index}
+                className="ease-in-out duration-300 hover:scale-110"
+              >
+                <a href={page.route} className="text-sm text-white">
                   {page.name}
                 </a>
               </li>
@@ -27,6 +37,6 @@ export default function Navbar() {
           <Button msg={'Suporte'} buttonStyles={'w-[120px] text-slate-300'} />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
