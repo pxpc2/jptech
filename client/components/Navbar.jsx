@@ -42,9 +42,7 @@ export default function Navbar() {
         <div className="navbar-social-buttons">
           <Button
             msg={'Suporte'}
-            buttonStyles={
-              'w-[120px] text-slate-300 ease-in-out duration-300 hover:border-white hover:scale-105 hover:font-medium'
-            }
+            buttonStyles={'w-[120px] text-slate-300'}
             delay={0}
           />
         </div>

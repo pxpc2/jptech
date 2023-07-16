@@ -7,7 +7,7 @@ export default function Button({ msg, buttonStyles, delay }) {
     <motion.button
       variants={fadeIn('down', 'tween', delay, delay)}
       className={`h-[38px] rounded-sm
-    text-sm  border-indigo-500 border-[1px] ${buttonStyles} hover:cursor-pointer`}
+    text-sm  border-indigo-500 border-[1px] ${buttonStyles} ease-in-out duration-300 hover:font-medium hover:scale-105 hover:border-white`}
     >
       {msg}
     </motion.button>

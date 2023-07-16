@@ -37,7 +37,6 @@ export default function Hero() {
             </motion.p>
             <div className="mt-8 mb-24">
               <Button
-                variants={textVariant(0.5)}
                 msg={'Saiba Mais!'}
                 buttonStyles={'text-slate-300 w-[250px]'}
                 delay={0.8}
