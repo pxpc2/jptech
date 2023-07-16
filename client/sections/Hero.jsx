@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute h-[300px] rounded-tl-[140px] z-[0]" />
       <div className="hero-gradient"></div>
       <div className="w-full">
-        <h1 className="text-slate-200 text-[68px] mt-[-25px] leading-[80px] text-right">
+        <h1 className="text-slate-200 text-[68px] mt-[-25px] leading-[80px] text-right mr-[-30px]">
           Seu parceiro em soluções tecnológicas
         </h1>
       </div>
