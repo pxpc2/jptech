@@ -11,6 +11,7 @@ export const navVariants = {
   show: {
     opacity: 1,
     y: 0,
+    duration: 1,
     transition: {
       type: 'spring',
       stiffness: 80,
@@ -56,7 +57,7 @@ export const textVariant = (delay) => ({
     opacity: 1,
     transition: {
       type: 'spring',
-      duration: 1.25,
+      duration: 2.5,
       delay,
     },
   },
