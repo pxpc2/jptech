@@ -9,10 +9,10 @@ export default function Valores() {
             <h2 className="text-base font-semibold leading-7 text-gray-500">
               Valores e Missão
             </h2>
-            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <p className="mt-2 text-3xl font-medium tracking-tight text-slate-900 sm:text-4xl">
               Os diferenciais que você precisa.
             </p>
-            <p className="text-gray-500 text-[20px] leading-[32px] mt-6">
+            <p className="text-slate-900 text-[20px] font-extralight leading-[32px] mt-6">
               Com um serviço excepcional, entrega pontual e suporte
               especializado, estamos prontos para ajudar as organizações a
               alcançarem seus objetivos e a enfrentarem os desafios tecnológicos
@@ -22,7 +22,7 @@ export default function Valores() {
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
             <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
               <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base font-medium text-slate-900 leading-7 ">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
                       className="h-6 w-6 text-white"
@@ -46,7 +46,7 @@ export default function Valores() {
                 </dd>
               </div>
               <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base font-medium text-slate-900 leading-7 ">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
                       className="h-6 w-6 text-white"
@@ -71,7 +71,7 @@ export default function Valores() {
                 </dd>
               </div>
               <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base font-medium text-slate-900 leading-7 ">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
                       className="h-6 w-6 text-white"
@@ -96,7 +96,7 @@ export default function Valores() {
                 </dd>
               </div>
               <div className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base leading-7 font-medium text-slate-900">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
                     <svg
                       className="h-6 w-6 text-white"

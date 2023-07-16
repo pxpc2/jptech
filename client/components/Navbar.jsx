@@ -5,10 +5,12 @@ import Button from './Button';
 
 export default function Navbar() {
   return (
-    <div className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] py-2`}>
+    <div
+      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] py-2 rleative`}
+    >
       <div className="flex flex-nowrap items-center justify-between">
         <div className="navbar-logo">
-          <Image src={'/LOGO.svg'} alt="logo" width={150} height={150} />
+          <Image src={'/logo.png'} alt="logo" width={200} height={200} />
         </div>
         <div className="navbar-menu">
           <ul className="w-full flex flex-row gap-8 items-center">
