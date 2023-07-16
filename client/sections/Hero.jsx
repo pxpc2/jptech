@@ -4,8 +4,8 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className={`${styles.sectionWidth} ${styles.heroPadding}`}>
-      <div className="absolute w-full h-[300px] rounded-tl-[140px] z-[0] -top-[30px]" />
+    <div className={`${styles.sectionWidth} ${styles.heroPadding} w-full`}>
+      <div className="absolute h-[300px] rounded-tl-[140px] z-[0]" />
       <div className="hero-gradient"></div>
       <div className="w-full">
         <h1 className="text-slate-200 text-[68px] mt-[-25px] leading-[80px] text-right">

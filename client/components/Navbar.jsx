@@ -6,7 +6,7 @@ import Button from './Button';
 export default function Navbar() {
   return (
     <div
-      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] py-2 rleative`}
+      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] py-4 rleative`}
     >
       <div className="flex flex-nowrap items-center justify-between">
         <div className="navbar-logo">
@@ -25,7 +25,6 @@ export default function Navbar() {
         </div>
         <div className="navbar-social-buttons">
           <Button msg={'Suporte'} buttonStyles={'w-[120px] text-slate-300'} />
-          <button className="w-[120px]"></button>
         </div>
       </div>
     </div>
