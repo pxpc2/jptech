@@ -1,8 +1,8 @@
-export default function Button({ width, msg, bgStyle, textColor }) {
+export default function Button({ msg, buttonStyles }) {
   return (
     <button
-      className={`w-[${width}px] h-[38px] rounded-sm
-    text-sm bg-${bgStyle} border-indigo-500 border-[1px] text-${textColor}`}
+      className={`h-[38px] rounded-sm
+    text-sm  border-indigo-500 border-[1px] ${buttonStyles}`}
     >
       {msg}
     </button>

@@ -22,7 +22,8 @@ export default function Navbar() {
           </ul>
         </div>
         <div className="navbar-social-buttons">
-          <Button width={120} msg={'Suporte'} textColor={'slate-300'} />
+          <Button msg={'Suporte'} buttonStyles={'w-[120px] text-slate-300'} />
+          <button className="w-[120px]"></button>
         </div>
       </div>
     </div>

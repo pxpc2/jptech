@@ -16,7 +16,10 @@ export default function Hero() {
             objetivos e a enfrentarem os desafios tecnológicos da atualidade.
           </p>
           <div className="mt-8 mb-24">
-            <Button width={250} msg={'Saiba Mais!'} textColor={'slate-300'} />
+            <Button
+              msg={'Saiba Mais!'}
+              buttonStyles={'text-slate-300 w-[250px]'}
+            />
           </div>
         </div>
         <div className="HERO__IMAGEM w-full"></div>
