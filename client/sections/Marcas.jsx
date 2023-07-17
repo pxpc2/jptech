@@ -9,7 +9,7 @@ export default function Marcas() {
     >
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
-          <h3 className="text-slate-800 text-3xl font-medium sm:text-4xl">
+          <h3 className="text-slate-800 mt-8 text-3xl font-semibold sm:text-4xl">
             As melhores marcas do mercado.
           </h3>
           <p className="text-gray-600 mt-3 font-extralight">
@@ -23,8 +23,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'logos/logo-DELL.svg'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
@@ -34,8 +34,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'/logos/logo-HP.png'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
@@ -44,8 +44,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'logos/logo-DELL.svg'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
@@ -55,8 +55,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'/logos/logo-HP.png'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
@@ -64,8 +64,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'logos/logo-DELL.svg'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
@@ -75,8 +75,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'/logos/logo-HP.png'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
@@ -84,8 +84,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'logos/logo-DELL.svg'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
@@ -95,8 +95,8 @@ export default function Marcas() {
             <li>
               <Image
                 src={'/logos/logo-HP.png'}
-                width={200}
-                height={200}
+                width={150}
+                height={150}
                 alt="dell"
                 className="m-auto"
               />
