@@ -13,7 +13,7 @@ export default function Navbar() {
       variants={navVariants}
       initial="hidden"
       whileInView={'show'}
-      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] py-4 rleative`}
+      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] pt-4 mb-12 rleative`}
     >
       <div className="flex flex-nowrap items-center justify-between">
         <div className="navbar-logo">

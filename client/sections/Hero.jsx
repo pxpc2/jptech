@@ -15,20 +15,20 @@ export default function Hero() {
         whileInView={'show'}
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className="w-full">
+        <div className="flex flex-row w-full justify-end items-end text-end">
           <motion.h1
             variants={textVariant(0.5)}
-            className="text-slate-200 text-[68px] mt-[-25px] leading-[80px] text-right mr-[-30px]"
+            className="text-slate-200 text-[57px] w-[900px] font-semibold  leading-[80px] text-right mr-[-30px]"
           >
             Seu parceiro em soluções tecnológicas
           </motion.h1>
         </div>
 
         <div className="flex flex-row flex-nowrap items-center gap-20 z-10">
-          <div className="HERO__TEXTOS flex flex-col gap-8 w-full">
+          <div className="HERO__TEXTOS flex flex-col gap-8 mt-[-30px] w-full">
             <motion.p
               variants={textVariant(0.8)}
-              className="text-slate-400 text-[20px]  leading-[32px] w-[450px] h-[135px]"
+              className="text-slate-400 text-[20px] font-extralight leading-[32px] w-[450px] h-[135px]"
             >
               Com um serviço excepcional, entrega pontual e suporte
               especializado, estamos prontos para ajudar as organizações a
