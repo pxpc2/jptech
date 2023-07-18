@@ -13,7 +13,7 @@ export default function Navbar() {
       variants={navVariants}
       initial="hidden"
       whileInView={'show'}
-      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] pt-4 mb-12 rleative`}
+      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] pt-4 mb-12`}
     >
       <div className="flex flex-nowrap items-center justify-between">
         <div className="navbar-logo">
@@ -26,7 +26,7 @@ export default function Navbar() {
           />
         </div>
         <div className="navbar-menu">
-          <ul className="w-full flex flex-row gap-8 items-center">
+          <ul className="w-full flex flex-row gap-8 items-center mr-16">
             {pages.map((page, index) => (
               <li key={index} className="">
                 <a

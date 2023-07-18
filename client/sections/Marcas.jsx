@@ -4,9 +4,7 @@ import Image from 'next/image';
 
 export default function Marcas() {
   return (
-    <div
-      className={`${styles.sectionWidth} ${styles.sectionPadding} mt-[-100px]`}
-    >
+    <div className={``}>
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-xl mx-auto text-center">
           <h3 className="text-slate-800 mt-8 text-3xl font-semibold sm:text-4xl">

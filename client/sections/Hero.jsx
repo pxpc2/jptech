@@ -1,51 +1,66 @@
-'use client';
-
 import Button from '@/components/Button';
 import { styles } from '@/styles';
-import { staggerContainer, textVariant } from '@/utils/motion';
-import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <div className={`${styles.sectionWidth} ${styles.heroPadding} w-full`}>
-      <div className="hero-gradient" />
-      <motion.div
-        variants={staggerContainer}
-        initial="hidden"
-        whileInView={'show'}
-        viewport={{ once: false, amount: 0.25 }}
-      >
-        <div className="flex flex-row w-full justify-end items-end text-end">
-          <motion.h1
-            variants={textVariant(0.5)}
-            className="text-slate-200 text-[57px] w-[900px] font-semibold  leading-[80px] text-right mr-[-30px]"
-          >
-            Seu parceiro em soluções tecnológicas
-          </motion.h1>
-        </div>
-
-        <div className="flex flex-row flex-nowrap items-center gap-20 z-10">
-          <div className="HERO__TEXTOS flex flex-col gap-8 mt-[-30px] w-full">
-            <motion.p
-              variants={textVariant(0.8)}
-              className="text-slate-400 text-[20px] font-extralight leading-[32px] w-[450px] h-[135px]"
-            >
-              Com um serviço excepcional, entrega pontual e suporte
-              especializado, estamos prontos para ajudar as organizações a
-              alcançarem seus objetivos e a enfrentarem os desafios tecnológicos
-              da atualidade.
-            </motion.p>
-            <div className="mt-8 mb-24">
-              <Button
-                msg={'Saiba Mais!'}
-                buttonStyles={'text-slate-300 w-[250px]'}
-                delay={0.8}
+    <div className={`${styles.sectionWidth} ${styles.heroPadding}`}>
+      <div className="flex flex-col gap-8 text-center items-center justify-center">
+        <h1 className="text-4xl text-gray-200 font-bold mx-auto sm:text-6xl">
+          Seu parceiro em soluções tecnológicas
+        </h1>
+        <p className="max-w-xl mx-auto">
+          Com um serviço excepcional, entrega pontual e suporte especializado,
+          estamos prontos para ajudar as organizações a alcançarem seus
+          objetivos e a enfrentarem os desafios tecnológicos da atualidade.
+        </p>
+        <Button buttonStyles={'w-[250px] mt-4'} msg={'Conheça Mais'} />
+        <div className="mt-6">
+          <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
+            <li>
+              <Image
+                src={'logos/logo-DELL.svg'}
+                width={150}
+                height={150}
+                alt="dell"
+                className="m-auto"
               />
-            </div>
-          </div>
-          <div className="HERO__IMAGEM w-full"></div>
+            </li>
+
+            {/* LOGO 2 */}
+            <li>
+              <Image
+                src={'/logos/logo-HP.png'}
+                width={150}
+                height={150}
+                alt="dell"
+                className="m-auto"
+              />
+            </li>
+
+            <li>
+              <Image
+                src={'logos/logo-DELL.svg'}
+                width={150}
+                height={150}
+                alt="dell"
+                className="m-auto"
+              />
+            </li>
+
+            {/* LOGO 2 */}
+            <li>
+              <Image
+                src={'/logos/logo-HP.png'}
+                width={150}
+                height={150}
+                alt="dell"
+                className="m-auto"
+              />
+            </li>
+          </ul>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }
