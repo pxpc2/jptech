@@ -14,9 +14,12 @@ export default function Hero() {
           estamos prontos para ajudar as organizações a alcançarem seus
           objetivos e a enfrentarem os desafios tecnológicos da atualidade.
         </p>
-
-        <div className="">
-          <ul className="flex gap-x-10 gap-y-6 flex-wrap items-center justify-center md:gap-x-16">
+        <Button buttonStyles={'w-[250px] mt-4'} msg={'Conheça Mais'} />
+        <div className="mt-20 flex flex-col gap-8">
+          <p className="max-w-xl mx-auto uppercase text-[12px] font-medium text-slate-400">
+            Trabalhamos com as melhores marcas.
+          </p>
+          <ul className="flex gap-x-10 gap-y-4 flex-wrap items-center justify-center md:gap-x-16">
             <li>
               <Image
                 src={'logos/logo-DELL.svg'}
@@ -60,7 +63,6 @@ export default function Hero() {
             </li>
           </ul>
         </div>
-        <Button buttonStyles={'w-[250px] mt-12'} msg={'Conheça Mais'} />
       </div>
     </div>
   );

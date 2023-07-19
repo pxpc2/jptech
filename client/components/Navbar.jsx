@@ -18,20 +18,20 @@ export default function Navbar() {
       <div className="flex flex-nowrap items-center justify-between">
         <div className="navbar-logo">
           <Image
-            src={'/logo.png'}
+            src={'/LOGO.svg'}
             alt="logo"
-            width={200}
-            height={200}
+            width={100}
+            height={100}
             className="ease-in-out duration-300 hover:scale-105"
           />
         </div>
         <div className="navbar-menu">
-          <ul className="w-full flex flex-row gap-8 items-center mr-16">
+          <ul className="w-full flex flex-row gap-8 items-center">
             {pages.map((page, index) => (
               <li key={index} className="">
                 <a
                   href={page.route}
-                  className="ease-in-out duration-300 text-sm text-white hover:font-medium"
+                  className="ease-in-out duration-300 text-[12px] hover:font-medium"
                 >
                   {page.name}
                 </a>

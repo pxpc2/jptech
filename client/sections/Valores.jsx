@@ -6,9 +6,6 @@ export default function Valores() {
       <div className="">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
-            <h2 className="text-base font-semibold leading-7 text-gray-500">
-              Valores e Missão
-            </h2>
             <p className="mt-2 text-3xl font-medium tracking-tight text-slate-900 sm:text-4xl">
               Os diferenciais que você precisa.
             </p>
@@ -40,7 +37,7 @@ export default function Valores() {
                   </div>
                   Logística de frete
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base  leading-7 font-extralight text-slate-900">
                   Entrega em todo o território brasileiro com agilidade.
                 </dd>
               </div>
@@ -63,7 +60,7 @@ export default function Valores() {
                   </div>
                   Serviço de garantia
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 font-extralight text-slate-900">
                   Se estende a todo o território nacional com atendimento
                   on-site e remoto.
                 </dd>
@@ -87,7 +84,7 @@ export default function Valores() {
                   </div>
                   Transparência
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 font-extralight text-slate-900">
                   Facilidade e agilidade na comunicação com clientes e
                   interessados
                 </dd>
@@ -111,10 +108,10 @@ export default function Valores() {
                   </div>
                   Marcas referência
                 </dt>
-                <dd className="mt-2 text-base leading-7 text-gray-500">
+                <dd className="mt-2 text-base leading-7 font-extralight text-slate-900">
                   Maiores marcas do mercado, tendo como principal parceiro
                   a&nbsp;
-                  <span className="underline">Positivo</span>.
+                  <span className="underline font-extralight">Positivo</span>.
                 </dd>
               </div>
             </dl>
