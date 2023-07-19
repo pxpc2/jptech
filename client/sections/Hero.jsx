@@ -7,7 +7,10 @@ export default function Hero() {
     <div className={`${styles.sectionWidth} ${styles.heroPadding}`}>
       <div className="flex flex-col gap-8 text-center items-center justify-center">
         <h1 className="text-4xl text-slate-800 font-bold mx-auto sm:text-5xl">
-          Seu parceiro em soluções tecnológicas
+          Seu parceiro em&nbsp;
+          <span className=" bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#0283C9] to-[#67a2f0]">
+            soluções tecnológicas
+          </span>
         </h1>
         <p className="max-w-xl mx-auto text-slate-800 font-normal">
           Com um serviço excepcional, entrega pontual e suporte especializado,
@@ -15,7 +18,6 @@ export default function Hero() {
           objetivos e a enfrentarem os desafios tecnológicos da atualidade.
         </p>
         <Button buttonStyles={'w-[250px] mt-4'} msg={'Conheça mais'}>
-          {' '}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 20 20"
