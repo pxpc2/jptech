@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Hero() {
   return (
     <div className={`${styles.sectionWidth} ${styles.heroPadding}`}>
-      <div className="flex flex-col gap-8 text-center items-center justify-center">
+      <div className="flex flex-col gap-8 w-full text-center items-center justify-center">
         <h1 className="text-4xl text-slate-800 font-bold mx-auto sm:text-5xl">
           Seu parceiro em&nbsp;
           <span className=" bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#0283C9] to-[#67a2f0]">

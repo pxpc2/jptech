@@ -13,20 +13,20 @@ export default function Navbar() {
       variants={navVariants}
       initial="hidden"
       whileInView={'show'}
-      className={`${styles.sectionWidth} ${styles.paddingX} h-[80px] pt-4 mb-12`}
+      className={`${styles.sectionWidth} ${styles.navPadding}`}
     >
-      <div className="flex flex-nowrap items-center justify-between">
+      <div className="flex flex-nowrap items-center text-center justify-between">
         <div className="navbar-logo">
           <Image
-            src={'/LOGO.svg'}
+            src={'/blacklogo-jptech.svg'}
             alt="logo"
-            width={100}
-            height={100}
+            width={250}
+            height={250}
             className="ease-in-out duration-150 hover:scale-105"
           />
         </div>
         <div className="navbar-menu">
-          <ul className="w-full flex flex-row gap-12 items-center">
+          <ul className="flex gap-8 items-center justify-center text-center">
             {pages.map((page, index) => (
               <li key={index} className="">
                 <a
@@ -39,7 +39,7 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-        <div className="navbar-social-buttons">
+        <div className="navbar-social-buttons w-[250px]">
           <Button
             msg={'Fale conosco'}
             buttonStyles={'w-[120px] text-slate-300'}
