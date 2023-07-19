@@ -18,6 +18,10 @@ export default function Home() {
           <Hero />
         </GradientWrapper>
       </div>
+
+      {/* <div className="flex flex-row items-center justify-center w-full">
+        <div className="border-t border-slate-200 w-[100%]" />
+      </div>*/}
       <Solucoes />
       <Valores />
       <Marcas />
