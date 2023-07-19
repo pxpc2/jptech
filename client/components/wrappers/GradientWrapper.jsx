@@ -2,9 +2,7 @@ export default function GradientWrapper({ children, ...props }) {
   return (
     <div
       {...props}
-      className={`relative overflow-hidden my-16 border-t sm:my-28 ${
-        props.className || ''
-      }`}
+      className={`relative overflow-hidden border-t  ${props.className || ''}`}
     >
       <div
         className="blur-[100px] absolute inset-0 w-full h-full"

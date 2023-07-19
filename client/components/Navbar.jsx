@@ -22,16 +22,16 @@ export default function Navbar() {
             alt="logo"
             width={100}
             height={100}
-            className="ease-in-out duration-300 hover:scale-105"
+            className="ease-in-out duration-150 hover:scale-105"
           />
         </div>
         <div className="navbar-menu">
-          <ul className="w-full flex flex-row gap-8 items-center">
+          <ul className="w-full flex flex-row gap-12 items-center">
             {pages.map((page, index) => (
               <li key={index} className="">
                 <a
                   href={page.route}
-                  className="ease-in-out duration-300 text-[12px] hover:font-medium"
+                  className="ease-in-out duration-150 text-slate-800 font-normal text-[12px] hover:font-medium"
                 >
                   {page.name}
                 </a>
@@ -41,7 +41,7 @@ export default function Navbar() {
         </div>
         <div className="navbar-social-buttons">
           <Button
-            msg={'Suporte'}
+            msg={'Fale conosco'}
             buttonStyles={'w-[120px] text-slate-300'}
             delay={0}
           />
