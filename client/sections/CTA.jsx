@@ -20,7 +20,7 @@ export default function CTA() {
                   src={'/working.jpg'}
                   alt="img"
                   width={700}
-                  height={9000}
+                  height={1000}
                   className="object-cover object-center rounded-3xl shadow-2xl"
                 />
               </div>
