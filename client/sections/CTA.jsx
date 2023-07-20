@@ -17,7 +17,7 @@ export default function CTA() {
             <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
               <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
                 <Image
-                  src={'/working.png'}
+                  src={'/people.jpg'}
                   alt="img"
                   width={700}
                   height={700}
