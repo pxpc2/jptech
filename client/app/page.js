@@ -1,40 +1,32 @@
-import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
+import Footerzin from '@/components/Footer';
+import Header from '@/components/Header';
 import GradientWrapper from '@/components/wrappers/GradientWrapper';
 import CTA from '@/sections/CTA';
+import Features from '@/sections/Features';
 import Hero from '@/sections/Hero';
-import Historia from '@/sections/Historia';
-import Marcas from '@/sections/Marcas';
-import Solucoes from '@/sections/Solucoes';
-import Valores from '@/sections/Valores';
-import Image from 'next/image';
+import Marcas from '@/sections/Logos';
+import Values from '@/sections/Values';
 
 export default function Home() {
   return (
-    <main className="overflow-hide">
-      <div className="relative">
-        <GradientWrapper>
-          <Navbar />
-          <Hero />
-        </GradientWrapper>
-      </div>
+    <main className="w-full">
+      <Header />
+      <Hero />
 
-      {/* <div className="flex flex-row items-center justify-center w-full">
-        <div className="border-t border-slate-200 w-[100%]" />
-      </div>*/}
-      <Solucoes />
-      <Valores />
-      <Marcas />
+      <GradientWrapper>
+        <Features />
+        <Values />
+      </GradientWrapper>
 
-      <div className="bg-slate-300">
+      <GradientWrapper>
         <CTA />
-      </div>
-      <div className="bg-white">
-        <Historia />
-      </div>
-      <div className="bg-slate-400">
-        <Footer />
-      </div>
+      </GradientWrapper>
+
+      <GradientWrapper>
+        <Marcas />
+      </GradientWrapper>
+
+      <Footerzin />
     </main>
   );
 }
