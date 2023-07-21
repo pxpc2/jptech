@@ -59,6 +59,7 @@ export default function Footer() {
               alt="logo"
               width={500}
               height={500}
+              href={'/'}
             />
             <p className="mt-8 text-center text-base text-gray-400">
               &copy; 2023 JPTech, Todos os direitos reservados.
