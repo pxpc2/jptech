@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const navigation = {
   company: [
     { name: 'Quem Somos', href: '#' },
@@ -43,14 +45,25 @@ const navigation = {
   ],
 };
 
-export default function Footerzin() {
+export default function Footer() {
   return (
-    <footer className="bg-gray-800" aria-labelledby="footer-heading">
+    <footer className="bg-jptech-brand-blue" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-        <div className="xl:grid xl:grid-cols-2 align-middle items-center xl:gap-8">
+        <div className="xl:grid xl:grid-cols-3 align-middle items-center xl:gap-8">
+          <div className="flex flex-col items-center align-middle justify-center text-center">
+            <Image
+              src={'/logos/mainlogo.jpg'}
+              alt="logo"
+              width={500}
+              height={500}
+            />
+            <p className="mt-8 text-center text-base text-gray-400">
+              &copy; 2023 JPTech, Todos os direitos reservados.
+            </p>
+          </div>
           <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
             <nav
               className="-mx-5 -my-2 flex flex-wrap justify-center"
@@ -60,7 +73,7 @@ export default function Footerzin() {
                 <div key={item.name} className="px-5 py-2">
                   <a
                     href={item.href}
-                    className="text-base text-gray-500  hover:text-slate-200"
+                    className="text-base text-gray-400  hover:text-slate-200"
                   >
                     {item.name}
                   </a>
@@ -79,9 +92,6 @@ export default function Footerzin() {
                 </a>
               ))}
             </div>
-            <p className="mt-8 text-center text-base text-gray-400">
-              &copy; 2023 JPTech, Todos os direitos reservados.
-            </p>
           </div>
           <div className="mt-8 xl:mt-0">
             <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">

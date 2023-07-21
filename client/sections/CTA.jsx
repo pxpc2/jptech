@@ -121,11 +121,11 @@ export default function CTA() {
                 Explore nossos produtos
               </a>
               <Image
-                src={'/jplogo.png'}
+                src={'/logos/mainlogo.jpg'}
                 alt="logo"
                 width={500}
                 height={500}
-                className="opacity-50 hover:scale-110 ease-in-out duration-300 lg:ml-24"
+                className="opacity-90 hover:scale-110 ease-in-out pt-8 duration-300 lg:ml-24"
               />
             </div>
           </div>

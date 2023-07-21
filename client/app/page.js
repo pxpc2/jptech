@@ -10,7 +10,6 @@ import Values from '@/sections/Values';
 export default function Home() {
   return (
     <main className="w-full">
-      <Header />
       <Hero />
 
       <GradientWrapper>
@@ -25,8 +24,6 @@ export default function Home() {
       <GradientWrapper>
         <Marcas />
       </GradientWrapper>
-
-      <Footerzin />
     </main>
   );
 }

@@ -23,7 +23,7 @@ const solutions = [
   },
 ];
 const navigation = [
-  { name: 'Quem Somos', href: '#' },
+  { name: 'Quem Somos', href: '/quemsomos' },
   { name: 'Parceiros', href: '#' },
   { name: 'Contato', href: '#' },
 ];
@@ -34,11 +34,11 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <header>
+    <header className="z-10">
       <Popover className="relative bg-white">
         <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <a href="/">
               <span className="sr-only">Workflow</span>
               <Image
                 src={'/logos/blacklogo-jptech.svg'}
