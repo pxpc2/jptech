@@ -5,9 +5,12 @@ import Footer from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
+/**
+ * Desenvolvido pela PUBLISTR Marketing Digital.
+ */
 export const metadata = {
-  title: 'JPTECH Soluções Tecnológicas',
-  description: 'Desenvolvido pela equipe da PUBLISTR.',
+  title: 'JPTECH',
+  description: 'Vendas de equipamentos de informática para o Brasil inteiro.',
 };
 
 export default function RootLayout({ children }) {

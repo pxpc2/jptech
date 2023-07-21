@@ -7,6 +7,9 @@ import Hero from '@/sections/Hero';
 import Marcas from '@/sections/Logos';
 import Values from '@/sections/Values';
 
+/**
+ * Desenvolvido pela PUBLISTR Marketing Digital.
+ */
 export default function Home() {
   return (
     <main className="w-full">
