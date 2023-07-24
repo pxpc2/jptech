@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 const navigation = {
   company: [
-    { name: 'Quem Somos', href: '#' },
+    { name: 'Quem Somos', href: '/quemsomos' },
     { name: 'Parceiros', href: '#' },
-    { name: 'Contato', href: '#' },
+    { name: 'Contato', href: '/contato' },
   ],
   social: [
     {
@@ -54,13 +54,14 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 align-middle items-center xl:gap-8">
           <div className="flex flex-col items-center align-middle justify-center text-center">
-            <Image
-              src={'/logos/mainlogo.jpg'}
-              alt="logo"
-              width={500}
-              height={500}
-              href={'/'}
-            />
+            <a href="#">
+              <Image
+                src={'/logos/mainlogo.jpg'}
+                alt="logo"
+                width={500}
+                height={500}
+              />
+            </a>
             <p className="mt-8 text-center text-base text-gray-400">
               &copy; 2023 JPTech, Todos os direitos reservados.
             </p>

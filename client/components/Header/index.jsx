@@ -25,7 +25,7 @@ const solutions = [
 const navigation = [
   { name: 'Quem Somos', href: '/quemsomos' },
   { name: 'Parceiros', href: '#' },
-  { name: 'Contato', href: '#' },
+  { name: 'Contato', href: '/contato' },
 ];
 
 function classNames(...classes) {

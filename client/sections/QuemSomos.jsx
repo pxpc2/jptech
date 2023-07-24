@@ -5,7 +5,7 @@ export default function QuemSomosHero() {
     <div className="py-16 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
         <div className="text-base max-w-prose mx-auto lg:max-w-none">
-          <h2 className="text-slate-800 font-semibold uppercase">Quem Somos</h2>
+          <h1 className="text-slate-800 font-semibold uppercase">Quem Somos</h1>
           <p
             className="mt-2 text-3xl leading-8 font-extrabold bg-clip-text text-transparent bg-gradient-to-r
            from-[#4367b6] to-[#0f2541] sm:text-4xl"
