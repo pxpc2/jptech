@@ -19,7 +19,7 @@ export default function QuemSomos() {
             Malesuada adipiscing sagittis vel nulla nec.
           </p>
           <a
-            href="#"
+            href="/contato"
             className="mt-8 w-full bg-jptech-brand-blue border border-transparent rounded-md 
             py-3 px-5 inline-flex items-center justify-center text-base font-medium
              text-slate-200 hover:bg-jptech-brand-lighterblue sm:w-auto"

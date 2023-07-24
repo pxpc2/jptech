@@ -15,12 +15,15 @@ export default function Marcas() {
             Trabalhamos com os maiores, garantindo desempenho, eficiência,
             durabilidade e segurança aos nossos clientes.
           </p>
-          <button
-            className="px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm
+
+          <a href="/contato" className="">
+            <button
+              className="px-4 py-3 mt-8 border border-transparent text-base font-medium rounded-md shadow-sm
            text-jptech-brand-blue bg-slate-100 hover:bg-slate-200 sm:px-8"
-          >
-            Entre em contato!
-          </button>
+            >
+              Entre em contato!
+            </button>
+          </a>
         </div>
         <div className="flex-none mt-12 text-white lg:mt-0">
           <ul

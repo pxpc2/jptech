@@ -62,7 +62,7 @@ export default function QuemSomosHero() {
               </div>
               <div className="rounded-md shadow ml-4">
                 <a
-                  href="#"
+                  href="/contato"
                   className="w-full flex items-center justify-center px-5 py-3 border
                  border-transparent text-base font-medium rounded-md text-jptech-brand-blue
                   bg-white hover:bg-gray-50"

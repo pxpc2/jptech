@@ -1,7 +1,7 @@
 export default function ContactForm() {
   return (
     <div
-      className="bg-slate-50 py-16 px-4 overflow-hidden sm:px-6 
+      className="bg-white py-16 px-4 overflow-hidden sm:px-6 
     lg:px-8 lg:py-24"
     >
       <div className="relative max-w-xl mx-auto">
@@ -72,7 +72,10 @@ export default function ContactForm() {
           />
         </svg>
         <div className="text-center">
-          <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <h1
+            className="text-3xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r
+           from-[#4367b6] to-[#0f2541] sm:text-4xl"
+          >
             Entre em contato
           </h1>
           <p className="mt-4 text-lg leading-6 text-gray-500">
@@ -100,7 +103,7 @@ export default function ContactForm() {
                   id="first-name"
                   autoComplete="given-name"
                   className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500
-                   border-gray-300 rounded-md"
+                   border-gray-300 border rounded-md"
                 />
               </div>
             </div>
@@ -117,7 +120,8 @@ export default function ContactForm() {
                   name="last-name"
                   id="last-name"
                   autoComplete="family-name"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                  className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500
+                   border border-gray-300 rounded-md"
                 />
               </div>
             </div>
@@ -134,7 +138,8 @@ export default function ContactForm() {
                   name="email"
                   type="email"
                   autoComplete="email"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"
+                  className="py-3 px-4 block w-full shadow-sm border border-gray-300
+                   rounded-md "
                 />
               </div>
             </div>
