@@ -37,21 +37,27 @@ export default function Hero() {
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div className="items-center justify-center">
-                    <button className="flex flex-row items-center  align-middle gap-2 px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-jptech-brand-blue bg-white hover:bg-indigo-50 sm:px-8">
-                      Conheça mais
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        className="w-5 h-5"
+                    <a href="/quemsomos">
+                      <button
+                        className="flex flex-row items-center  align-middle gap-2 px-4 py-3
+                     border border-transparent text-base font-medium rounded-md shadow-sm
+                      text-jptech-brand-blue bg-white hover:bg-indigo-50 sm:px-8"
                       >
-                        <path
-                          fillRule="evenodd"
-                          d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </button>
+                        Conheça mais
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          className="w-5 h-5"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>
