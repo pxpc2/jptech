@@ -35,7 +35,7 @@ export default function Hero() {
                   alcançarem seus objetivos e a enfrentarem os desafios
                   tecnológicos da atualidade.
                 </p>
-                <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                <div className="mt-10 max-w-sm mx-auto sm:max-w-none flex justify-center">
                   <div className="items-center justify-center">
                     <a href="/quemsomos">
                       <button
@@ -64,11 +64,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-
-        {/* Logo cloud */}
       </div>
-
-      {/* More main page content here... */}
     </div>
   );
 }
