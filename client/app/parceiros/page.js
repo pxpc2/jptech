@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function ParceirosPage() {
   return (
     <section className="py-12 bg-gray-50 overflow-hidden md:py-20 lg:py-24">
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:py-12">
         <div className="relative">
           <a
             href="https://gifer.com.br/"
