@@ -24,7 +24,7 @@ const solutions = [
 ];
 const navigation = [
   { name: 'Quem Somos', href: '/quemsomos' },
-  { name: 'Parceiros', href: '#' },
+  { name: 'Parceiros', href: '/parceiros' },
   { name: 'Contato', href: '/contato' },
 ];
 
