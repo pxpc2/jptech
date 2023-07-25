@@ -51,7 +51,7 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+      <div className="max-w-7xl mx-auto py-12 px-8 sm:px-6 lg:py-16 ">
         <div className="xl:grid xl:grid-cols-3 align-middle items-center xl:gap-8">
           <div className="flex flex-col items-center align-middle justify-center text-center">
             <a href="/">

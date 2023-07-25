@@ -109,7 +109,7 @@ export default function QuemSomosHero() {
             <blockquote className="relative bg-white rounded-lg shadow-lg">
               <div className="rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8">
                 <Image
-                  src={'/logos/blacklogo-jptech.svg'}
+                  src={'/logos/jptech-blacklogo.png'}
                   alt="logo"
                   width={300}
                   height={100}

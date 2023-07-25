@@ -41,7 +41,7 @@ export default function Header() {
             <a href="/">
               <span className="sr-only">Workflow</span>
               <Image
-                src={'/logos/blacklogo-jptech.svg'}
+                src={'/logos/jptech-blacklogo.png'}
                 alt="logo"
                 width={250}
                 height={250}
@@ -93,7 +93,7 @@ export default function Header() {
                               href={item.href}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
-                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white sm:h-12 sm:w-12">
+                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-jptech-brand-blue text-white sm:h-12 sm:w-12">
                                 <item.icon
                                   className="h-6 w-6"
                                   aria-hidden="true"
@@ -157,14 +157,20 @@ export default function Header() {
               <div className="pt-5 pb-6 px-5">
                 <div className="flex items-center justify-between">
                   <div>
-                    <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                      alt="Workflow"
+                    <Image
+                      src={'/logos/jptech-brand.png'}
+                      alt="jptech"
+                      width={50}
+                      height={50}
                     />
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <Popover.Button
+                      className="bg-white rounded-md p-2 inline-flex 
+                    items-center justify-center text-gray-400 hover:text-gray-500
+                     hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset
+                      focus:ring-indigo-500"
+                    >
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -178,7 +184,10 @@ export default function Header() {
                         href={item.href}
                         className="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50"
                       >
-                        <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-600 text-white">
+                        <div
+                          className="flex-shrink-0 flex items-center
+                         justify-center h-10 w-10 rounded-md bg-jptech-brand-blue text-white"
+                        >
                           <item.icon className="h-6 w-6" aria-hidden="true" />
                         </div>
                         <div className="ml-4 text-base font-medium text-gray-900">
@@ -189,7 +198,7 @@ export default function Header() {
                   </nav>
                 </div>
               </div>
-              <div className="py-6 px-5 bg-indigo-600">
+              <div className="py-6 px-5 bg-jptech-brand-blue">
                 <div className="grid grid-cols-2 gap-4">
                   {navigation.map((item) => (
                     <a

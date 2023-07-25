@@ -2,18 +2,14 @@ import Image from 'next/image';
 
 export default function CTA() {
   return (
-    <div className="relative py-16 bg-white">
+    <div className="relative sm:py-16 bg-white">
       <div
-        className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block"
+        className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 sm:block"
         aria-hidden="true"
       />
-      <div className="max-w-7xl mx-auto bg-jptech-brand-blue lg:bg-transparent lg:px-8">
+      <div className="max-w-7xl mx-auto bg-jptech-brand-blue px-4 lg:bg-transparent lg:px-8">
         <div className="lg:grid lg:grid-cols-12">
           <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
-            <div
-              className="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden"
-              aria-hidden="true"
-            />
             <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
               <div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
                 <Image
@@ -99,14 +95,14 @@ export default function CTA() {
                 />
               </svg>
             </div>
-            <div className="relative max-w-md mx-auto py-12 px-4 space-y-8 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-4">
+            <div className="relative max-w-md mx-auto py-12 px-8 space-y-8 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-4">
               <h2
-                className="text-3xl font-semibold text-slate-200 hover:underline"
+                className="text-3xl font-semibold text-center sm:text-left text-slate-200 hover:underline"
                 id="join-heading"
               >
                 Conheça nossa empresa
               </h2>
-              <p className="text-lg text-slate-200">
+              <p className="text-lg text-center sm:text-left text-slate-200">
                 Com um serviço excepcional, entrega pontual e suporte
                 especializado, estamos prontos para ajudar as organizações a
                 alcançarem seus objetivos e a enfrentarem os desafios

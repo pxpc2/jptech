@@ -2,7 +2,7 @@
 import Image from 'next/image';
 export default function Hero() {
   return (
-    <div className="bg-white pb-24 pt-12">
+    <div className="bg-white sm:pb-24 sm:pt-12">
       <div>
         {/* Hero card */}
         <div className="relative">
@@ -19,13 +19,16 @@ export default function Hero() {
                 />
                 <div className="absolute inset-0 bg-indigo-700 mix-blend-multiply" />
               </div>
-              <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+              <div className="relative px-8 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
                 <h1
                   className="text-center text-4xl font-extrabold tracking-tight
                  sm:text-5xl hover:scale-105 lg:text-6xl ease-in-out duration-300"
                 >
                   <span className="block text-white">Seu parceiro em</span>
-                  <span className="bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#b1e4ff] to-[#6dacff]">
+                  <span
+                    className="bg-clip-text font-bold text-transparent 
+                  bg-gradient-to-r from-[#b1e4ff] to-[#6dacff]"
+                  >
                     soluções tecnológicas
                   </span>
                 </h1>

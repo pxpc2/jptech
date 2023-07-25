@@ -34,10 +34,12 @@ const features = [
 
 export default function Values() {
   return (
-    <div className="bg-gray-50 py-16 overflow-hidden">
-      <div className="relative max-w-7xl mx-auto py-24 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-50 px-8 sm:px-2 sm:py-16 overflow-hidden">
+      <div className="relative max-w-7xl mx-auto py-12 sm:py-24 px-4 sm:px-6 lg:px-8">
         <svg
-          className="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
+          className="absolute top-0 left-full transform -translate-x-1/2
+           -translate-y-3/4 lg:left-auto lg:right-full
+            lg:translate-x-2/3 lg:translate-y-1/4"
           width={404}
           height={784}
           fill="none"

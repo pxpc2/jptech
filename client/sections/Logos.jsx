@@ -4,21 +4,25 @@ export default function Marcas() {
   return (
     <div className="py-28 bg-slate-900">
       <div
-        className="max-w-screen-xl mx-auto px-4 flex-wrap gap-x-12 justify-between items-center 
+        className="max-w-screen-xl mx-auto px-12 flex-wrap gap-x-12 justify-between items-center 
       md:flex md:px-8 lg:flex-nowrap"
       >
-        <div className="max-w-xl space-y-6">
-          <p className="text-slate-200 text-3xl font-semibold sm:text-4xl">
+        <div
+          className="max-w-xl space-y-6 items-center justify-center flex flex-col
+        sm:items-start"
+        >
+          <p className="text-slate-200 text-3xl text-center sm:text-left font-semibold sm:text-4xl">
             As melhores marcas do mercado.
           </p>
-          <p className="text-slate-300">
+          <p className="text-slate-300 text-center sm:text-left">
             Trabalhamos com os maiores, garantindo desempenho, eficiência,
             durabilidade e segurança aos nossos clientes.
           </p>
 
           <a href="/contato" className="">
             <button
-              className="px-4 py-3 mt-8 border border-transparent text-base font-medium rounded-md shadow-sm
+              className="px-4 py-3 mt-8 border border-transparent text-base 
+              font-medium rounded-md shadow-sm
            text-jptech-brand-blue bg-slate-100 hover:bg-slate-200 sm:px-8"
             >
               Entre em contato!
