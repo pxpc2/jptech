@@ -79,8 +79,8 @@ export default function ContactForm() {
             Entre em contato
           </h1>
           <p className="mt-4 text-lg leading-6 text-gray-500">
-            Preencha o formulário com seus dados e suas dúvidas, retornaremos
-            assim que possível.
+            Entre em contato com nós através do formulário a seguir, estamos
+            aguardando para lhe ajudar!
           </p>
         </div>
         <div className="mt-12">
