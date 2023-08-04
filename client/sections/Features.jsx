@@ -14,10 +14,10 @@ export default function Solucoes() {
         >
           <div className="SOLUCOES__IMAGEM w-full mt-8 sm:mt-0 mb-4 sm:mb-0">
             <Image
-              src={'/world.png'}
+              src={'/territorio-nacional.png'}
               alt="triangle"
-              width={700}
-              height={700}
+              width={500}
+              height={500}
               className="ease-in-out duration-500 sm:hover:scale-105"
             />
           </div>
