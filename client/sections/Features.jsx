@@ -12,7 +12,7 @@ export default function Solucoes() {
           className="flex flex-col sm:flex-row px-12 sm:px-0 sm:py-24 
         flex-nowrap items-center ml-8 sm:gap-20 "
         >
-          <div className="SOLUCOES__IMAGEM w-full">
+          <div className="SOLUCOES__IMAGEM w-full mt-8 sm:mt-0 mb-4 sm:mb-0">
             <Image
               src={'/world.png'}
               alt="triangle"
@@ -39,8 +39,8 @@ export default function Solucoes() {
             </div>
 
             <p
-              className="text-slate-800 font-normal text-[20px] leading-[32px] w-[400px] sm:h-[135px]
-             text-center pb-8 ease-in-out duration-500 hover:underline  sm:pb-0 sm:text-left"
+              className="text-slate-800 font-normal text-base sm:text-[20px] sm:leading-[32px] w-[400px] sm:h-[135px]
+             text-center pb-8 ease-in-out duration-500 hover:underline   sm:pb-0 sm:text-left"
             >
               Nos tornamos referência em tecnologia para empresas e instituições
               governamentais, reconhecidos por nossa excelência, inovação e
