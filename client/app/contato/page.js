@@ -9,7 +9,6 @@ export default function Contato() {
   });
 
   const onSubmit = async (data) => {
-    console.log(data);
     const res = await fetch('/api/contact', {
       method: 'POST',
       body: JSON.stringify(data),

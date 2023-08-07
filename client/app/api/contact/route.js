@@ -3,15 +3,13 @@ import { NextResponse } from 'next/server';
 
 export async function POST(req) {
   const request = await req.json();
-  console.log('email: ' + process.env.NEXT_PUBLIC_EMAIL_USER);
-  console.log('pass: ' + process.env.NEXT_PUBLIC_EMAIL_PASS);
   const transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
     port: '465',
     secure: true,
     auth: {
-      user: 'SEU_EMAIL@gmail.com',
-      pass: 'SUA_SENHA',
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
     },
   });
 
