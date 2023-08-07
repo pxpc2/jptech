@@ -1,6 +1,8 @@
 'use client';
 
 import { useForm } from 'react-hook-form';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contato() {
   const { register, reset, handleSubmit, formState } = useForm({
@@ -13,6 +15,10 @@ export default function Contato() {
       method: 'POST',
       body: JSON.stringify(data),
     });
+    if (res.status === 200) {
+      toast.success('Enviado com sucesso!');
+      reset();
+    } else if (res.status === 500) toast.error('Erro ao enviar email.');
     return res;
   };
 
