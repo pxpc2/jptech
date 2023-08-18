@@ -11,7 +11,7 @@ export default function Chamados() {
   });
 
   const onSubmit = async (data) => {
-    const res = await fetch('/api/contact', {
+    const res = await fetch('/api/support', {
       method: 'POST',
       body: JSON.stringify(data),
     });
