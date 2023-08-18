@@ -126,7 +126,8 @@ export default function Contato() {
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500
+                  className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
+                  focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
                  border-gray-300 border rounded-md"
                   {...register('nome')}
                 />
@@ -145,7 +146,8 @@ export default function Contato() {
                   name="phone"
                   id="phone"
                   autoComplete="phone"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500
+                  className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
+                  focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
                  border border-gray-300 rounded-md"
                   {...register('phone')}
                 />
@@ -165,7 +167,8 @@ export default function Contato() {
                   type="email"
                   autoComplete="email"
                   className="py-3 px-4 block w-full shadow-sm border border-gray-300
-                 rounded-md "
+                 rounded-md focus:outline-none focus:ring-1
+                 focus:border-jptech-brand-blue focus:ring-jptech-brand-blue"
                   {...register('email')}
                 />
               </div>
@@ -183,7 +186,8 @@ export default function Contato() {
                   name="message"
                   rows={4}
                   className="py-3 px-4 block w-full shadow-sm
-                 focus:ring-indigo-500 focus:border-indigo-500 border
+                  focus:outline-none focus:ring-1
+                  focus:border-jptech-brand-blue focus:ring-jptech-brand-blue border
                   border-gray-300 rounded-md"
                   defaultValue={''}
                   {...register('msg')}
