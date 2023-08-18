@@ -27,8 +27,8 @@ const solutions = [
   },
 ];
 const navigation = [
-  { name: 'Abertura de Chamados', href: '/chamados' },
   { name: 'Contato', href: '/contato' },
+  { name: 'Abertura de Chamados', href: '/chamados' },
 ];
 
 function classNames(...classes) {
