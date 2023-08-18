@@ -125,6 +125,7 @@ export default function Contato() {
                   type="text"
                   name="first-name"
                   id="first-name"
+                  placeholder="Seu nome completo"
                   autoComplete="given-name"
                   className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
                   focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
@@ -144,6 +145,7 @@ export default function Contato() {
                 <input
                   type="number"
                   name="phone"
+                  placeholder="+55 61 93333-3333"
                   id="phone"
                   autoComplete="phone"
                   className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
@@ -165,6 +167,7 @@ export default function Contato() {
                   id="email"
                   name="email"
                   type="email"
+                  placeholder="Seu email"
                   autoComplete="email"
                   className="py-3 px-4 block w-full shadow-sm border border-gray-300
                  rounded-md focus:outline-none focus:ring-1
@@ -184,6 +187,7 @@ export default function Contato() {
                 <textarea
                   id="message"
                   name="message"
+                  placeholder="Escreva seu texto aqui..."
                   rows={4}
                   className="py-3 px-4 block w-full shadow-sm
                   focus:outline-none focus:ring-1

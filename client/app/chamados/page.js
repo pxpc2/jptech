@@ -168,7 +168,7 @@ export default function Chamados() {
                   name="phone"
                   id="phone"
                   autoComplete="phone"
-                  placeholder="+55 61 3333-3333"
+                  placeholder="+55 61 93333-3333"
                   className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
                   focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
                  border border-gray-300 rounded-md"
