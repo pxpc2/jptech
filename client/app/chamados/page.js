@@ -125,6 +125,7 @@ export default function Chamados() {
                   type="text"
                   name="first-name"
                   id="first-name"
+                  placeholder="Seu nome e sobrenome"
                   autoComplete="given-name"
                   className="py-3 px-4 block w-full shadow-sm 
                  border-gray-300 border rounded-md focus:outline-none focus:ring-1
@@ -135,6 +136,27 @@ export default function Chamados() {
             </div>
             <div>
               <label
+                htmlFor="orgao"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Orgão
+              </label>
+              <div className="mt-1">
+                <input
+                  type="text"
+                  name="orgao"
+                  id="orgao"
+                  placeholder="Aonde você trabalha?"
+                  autoComplete="orgao"
+                  className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
+                  focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
+                 border border-gray-300 rounded-md"
+                  {...register('orgao')}
+                />
+              </div>
+            </div>
+            <div className="col-span-2">
+              <label
                 htmlFor="phone"
                 className="block text-sm font-medium text-gray-700"
               >
@@ -142,10 +164,11 @@ export default function Chamados() {
               </label>
               <div className="mt-1">
                 <input
-                  type="number"
+                  type="text"
                   name="phone"
                   id="phone"
                   autoComplete="phone"
+                  placeholder="+55 61 3333-3333"
                   className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
                   focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
                  border border-gray-300 rounded-md"
@@ -165,11 +188,52 @@ export default function Chamados() {
                   id="email"
                   name="email"
                   type="email"
+                  placeholder="Seu email"
                   autoComplete="email"
                   className="py-3 px-4 block w-full shadow-sm border border-gray-300
                  rounded-md focus:outline-none focus:ring-1
                  focus:border-jptech-brand-blue focus:ring-jptech-brand-blue"
                   {...register('email')}
+                />
+              </div>
+            </div>
+            <div className="">
+              <label
+                htmlFor="licitacao"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Número da licitação
+              </label>
+              <div className="mt-1">
+                <input
+                  type="text"
+                  name="licitacao"
+                  id="licitacao"
+                  autoComplete="licitacao"
+                  className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
+                  focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
+                 border border-gray-300 rounded-md"
+                  {...register('licitacao')}
+                />
+              </div>
+            </div>
+            <div className="">
+              <label
+                htmlFor="contrato"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Número do contrato
+              </label>
+              <div className="mt-1">
+                <input
+                  type="text"
+                  name="contrato"
+                  id="contrato"
+                  autoComplete="contrato"
+                  className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
+                  focus:border-jptech-brand-blue focus:ring-jptech-brand-blue
+                 border border-gray-300 rounded-md"
+                  {...register('contrato')}
                 />
               </div>
             </div>
@@ -185,6 +249,7 @@ export default function Chamados() {
                   id="message"
                   name="message"
                   rows={4}
+                  placeholder="Escreva seu texto aqui..."
                   className="py-3 px-4 block w-full shadow-sm
                   focus:outline-none focus:ring-1
                   focus:border-jptech-brand-blue focus:ring-jptech-brand-blue border
