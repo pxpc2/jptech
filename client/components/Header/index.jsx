@@ -22,7 +22,7 @@ const solutions = [
     name: 'Produtos de Parceiros',
     description:
       'Conheça os produtos de nossos parceiros e receba a solução específica para o seu negócio.',
-    href: '#',
+    href: '/parceiros-produtos',
     icon: MenuIcon,
   },
 ];
