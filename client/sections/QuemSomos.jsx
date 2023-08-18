@@ -13,40 +13,37 @@ export default function QuemSomosHero() {
             Conheça nossa história
           </p>
         </div>
-        <div className="relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72">
-          <p className="text-lg text-gray-500">
+        <div
+          className="relative z-10 text-base max-w-prose mx-auto
+         lg:max-w-5xl lg:mx-0 lg:pr-72"
+        >
+          <p className="text-lg text-gray-500 md:mt-[-2%] md:mb-[10%]">
             Somos uma empresa em ascensão no mercado de TI, dedicada a fornecer
             soluções tecnológicas de ponta para empresas e instituições
             governamentais. Com um amplo portfólio de produtos e serviços,
-            atendemos a todo tipo de necessidade e oferecemos suporte
-            personalizado aos nossos clientes.
+            estamos prontos para atender a diversas necessidades, sempre
+            oferecendo suporte personalizado aos nossos clientes.
           </p>
         </div>
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
           <div className="relative z-10">
             <div className="prose prose-indigo text-gray-500 mx-auto text-left lg:max-w-none">
               <p>
-                Nossa gama de produtos inclui notebooks, tablets, mesas
-                digitalizadoras, projetores, impressoras, desktops,
-                microcomputadores, drones e periféricos de informática de alta
-                qualidade. Cada item é cuidadosamente selecionado para atender
-                às demandas de um ambiente empresarial moderno.
+                Nossa gama de produtos inclui desktops, notebooks,
+                microcomputadores, tablets, drones, periféricos de informática
+                de alta qualidade e muito mais! Cada item é cuidadosamente
+                selecionado para atender às demandas de um ambiente empresarial
+                moderno.
                 <br />
               </p>
               <p>
                 <br />
-                Entendemos a importância da tecnologia para o sucesso. Nosso
-                compromisso é oferecer soluções avançadas e confiáveis,
-                impulsionando o crescimento e a eficiência operacional do
-                cliente.
+                Compreendemos a importância da tecnologia para o sucesso dos
+                negócios. Nosso compromisso é disponibilizar soluções avançadas
+                e confiáveis, impulsionando o crescimento e a eficiência
+                operacional dos nossos clientes. Estamos aqui para colaborar com
+                o seu progresso.
                 <br />
-              </p>
-              <p>
-                <br />
-                Com um serviço excepcional, entrega pontual e suporte
-                especializado, estamos prontos para ajudar as organizações a
-                alcançarem seus objetivos e a enfrentarem os desafios
-                tecnológicos da atualidade.
               </p>
             </div>
             <div className="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">

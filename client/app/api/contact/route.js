@@ -13,14 +13,15 @@ export async function POST(req) {
     },
   });
 
-  const contactString = `JPTECH - Mensagem de contato - ${request.nome} ${request.sobrenome}`;
+  const contactString = `Mensagem de contato - ${request.nome}`;
 
   const mailOptions = {
     from: 'mtbrookbrampa@gmail.com',
     to: 'pedrodaia.c@gmail.com',
     subject: contactString,
     text: request.msg,
-    html: `<div> email: ${request.email} <br / ><br / > ${request.msg} </div>`,
+    html: `<div> email: ${request.email} <br / ><br / > telefone: ${request.phone} <br/> <br/>
+    Mensagem:<br/>${request.msg} </div>`,
   };
 
   return await transporter

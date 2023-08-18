@@ -103,10 +103,9 @@ export default function CTA() {
                 Conheça nossa empresa
               </h2>
               <p className="text-lg text-center sm:text-left text-slate-200">
-                Com um serviço excepcional, entrega pontual e suporte
-                especializado, estamos prontos para ajudar as organizações a
-                alcançarem seus objetivos e a enfrentarem os desafios
-                tecnológicos da atualidade.
+                Explore a amplitude e a qualidade que definem nossos produtos e
+                soluções. Nossa busca incansável pela excelência é o que nos
+                diferencia no cenário tecnológico
               </p>
               <a
                 className="block w-full py-3 px-5 text-center bg-slate-100 border
@@ -114,7 +113,7 @@ export default function CTA() {
                   text-jptech-brand-blue hover:bg-gray-200 sm:inline-block sm:w-auto"
                 href="#"
               >
-                Explore nossos produtos
+                Explore produtos de parceiros!
               </a>
               <Image
                 src={'/logos/mainlogo.jpg'}

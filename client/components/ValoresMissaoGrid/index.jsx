@@ -1,39 +1,33 @@
-const faqs = [
+const valores = [
   {
     id: 1,
-    question: "What's the best thing about Switzerland?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    title: 'Excelência',
+    desc: 'Buscamos a excelência em tudo o que fazemos, desde a seleção cuidadosa de nossos produtos até a entrega de um atendimento personalizado e suporte técnico especializado. Comprometemo-nos a fornecer soluções tecnológicas de alta qualidade que atendam e superem as expectativas dos nossos clientes.',
   },
   {
     id: 2,
-    question: 'How do you make holy water?',
-    answer:
-      'You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+    title: 'Inovação',
+    desc: 'Valorizamos a inovação como um elemento essencial para impulsionar o sucesso dos nossos clientes. Estamos constantemente atualizados sobre as últimas tendências tecnológicas e procuramos oferecer soluções criativas e disruptivas que atendam às necessidades em constante evolução do mercado',
   },
   {
     id: 3,
-    question: 'Why do you never see elephants hiding in trees?',
-    answer:
-      "Because they're so good at it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    title: 'Confiabilidade',
+    desc: 'Agimos com honestidade, transparência e ética em todas as nossas interações. Nossos relacionamentos com clientes, parceiros e funcionários são baseados em confiança mútua e respeito, e estamos comprometidos em seguir os mais altos padrões de integridade em todos os aspectos do nosso negócio',
   },
   {
     id: 4,
-    question: 'What do you call someone with no body and no nose?',
-    answer:
-      'Nobody knows. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+    title: '',
+    desc: '',
   },
   {
     id: 5,
-    question: "Why can't you hear a pterodactyl go to the bathroom?",
-    answer:
-      'Because the pee is silent. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.',
+    title: 'Compromisso com o cliente',
+    desc: 'Colocamos nossos clientes em primeiro lugar, garantindo sua satisfação, fidelidade e sucesso em todas as interações. Nosso compromisso com o cliente é a base da nossa parceria a longo prazo.',
   },
   {
     id: 6,
-    question: 'Why did the invisible man turn down the job offer?',
-    answer:
-      "He couldn't see himself doing it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    title: '',
+    desc: '',
   },
 ];
 
@@ -44,19 +38,21 @@ export default function ValoresMissaoGrid() {
         className="text-3xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r
        from-[#4367b6] to-[#15355f] text-center"
       >
-        Valores e Missão
+        Valores
       </h2>
       <div className="mt-12">
         <dl
           className="space-y-10 md:space-y-0 md:grid md:grid-cols-2
        md:grid-rows-2 md:gap-x-8 md:gap-y-12 lg:grid-cols-3"
         >
-          {faqs.map((item) => (
+          {valores.map((item) => (
             <div key={item.id}>
-              <dt className="text-lg leading-6 font-medium text-gray-900">
-                {item.question}
+              <dt className="text-lg text-center leading-6 font-medium text-gray-900">
+                {item.title}
               </dt>
-              <dd className="mt-2 text-base text-gray-500">{item.answer}</dd>
+              <dd className="mt-2 text-base text-center text-gray-500">
+                {item.desc}
+              </dd>
             </div>
           ))}
         </dl>

@@ -39,12 +39,15 @@ export default function Solucoes() {
             </div>
 
             <p
-              className="text-slate-800 font-normal text-base sm:text-[20px] sm:leading-[32px] w-[400px] sm:h-[135px]
+              className="text-slate-800 font-normal text-base sm:text-md w-[400px] sm:h-[135px]
              text-center pb-8 ease-in-out duration-500 hover:underline   sm:pb-0 sm:text-left"
             >
-              Nos tornamos referência em tecnologia para empresas e instituições
-              governamentais, reconhecidos por nossa excelência, inovação e
-              compromisso com a satisfação do cliente.
+              Com uma abordagem que transcende fronteiras, estamos empenhados em
+              difundir a inovação tecnológica por todo o Brasil. Do Norte ao
+              Sul, do Leste ao Oeste, nosso compromisso é levar soluções de
+              ponta a cada canto do território nacional. Combinando expertise,
+              paixão e determinação, estamos construindo um futuro digital mais
+              acessível e promissor para todos.
             </p>
           </div>
         </div>

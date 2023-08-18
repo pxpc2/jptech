@@ -32,10 +32,10 @@ export default function Hero() {
                   </span>
                 </h1>
                 <p className="mt-6 max-w-lg mx-auto text-center text-xl text-slate-200 sm:max-w-3xl">
-                  Com um serviço excepcional, entrega pontual e suporte
-                  especializado, estamos prontos para ajudar as organizações a
-                  alcançarem seus objetivos e a enfrentarem os desafios
-                  tecnológicos da atualidade.
+                  Abraçamos a missão de ser muito mais do que um simples
+                  provedor de tecnologia. Com uma dedicação incessante à
+                  inovação e excelência, estamos aqui para traduzir suas
+                  necessidades em soluções tangíveis e eficazes.
                 </p>
                 <div className="mt-10 max-w-sm mx-auto sm:max-w-none flex justify-center">
                   <div className="items-center justify-center">

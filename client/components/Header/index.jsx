@@ -2,12 +2,9 @@
 
 import { Popover, Transition } from '@headlessui/react';
 import {
-  AnnotationIcon,
-  ChatAlt2Icon,
   ChevronDownIcon,
   InboxIcon,
   MenuIcon,
-  QuestionMarkCircleIcon,
   XIcon,
 } from '@heroicons/react/solid';
 import { Fragment } from 'react';
@@ -21,10 +18,16 @@ const solutions = [
     href: '#',
     icon: InboxIcon,
   },
+  {
+    name: 'Produtos de Parceiros',
+    description:
+      'Conheça os produtos de nossos parceiros e receba a solução específica para o seu negócio.',
+    href: '#',
+    icon: MenuIcon,
+  },
 ];
 const navigation = [
-  { name: 'Quem Somos', href: '/quemsomos' },
-  { name: 'Parceiros', href: '/parceiros' },
+  { name: 'Abertura de Chamados', href: '/chamados' },
   { name: 'Contato', href: '/contato' },
 ];
 
@@ -56,6 +59,13 @@ export default function Header() {
             </Popover.Button>
           </div>
           <Popover.Group as="nav" className="hidden md:flex space-x-10">
+            <a
+              key={'Quem Somos'}
+              href="/quemsomos"
+              className="text-base font-medium text-slate-700 hover:font-semibold"
+            >
+              Quem Somos
+            </a>
             <Popover className="relative">
               {({ open }) => (
                 <>
@@ -116,7 +126,6 @@ export default function Header() {
                 </>
               )}
             </Popover>
-
             {navigation.map((item) => (
               <a
                 key={item.name}

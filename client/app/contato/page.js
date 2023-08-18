@@ -1,7 +1,7 @@
 'use client';
 
 import { useForm } from 'react-hook-form';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 export default function Contato() {
@@ -102,8 +102,7 @@ export default function Contato() {
             Entre em contato
           </h1>
           <p className="mt-4 text-lg leading-6 text-gray-500">
-            Entre em contato com nós através do formulário a seguir, estamos
-            aguardando para lhe ajudar!
+            Conecte-se conosco. Estamos ansiosos para ouvir você!
           </p>
         </div>
         {/* ---------------------------------------- INICIO DO FORMULÁRIO ----------------------------------------*/}
@@ -135,20 +134,20 @@ export default function Contato() {
             </div>
             <div>
               <label
-                htmlFor="last-name"
+                htmlFor="phone"
                 className="block text-sm font-medium text-gray-700"
               >
-                Sobrenome
+                Telefone para contato
               </label>
               <div className="mt-1">
                 <input
-                  type="text"
-                  name="last-name"
-                  id="last-name"
-                  autoComplete="family-name"
+                  type="number"
+                  name="phone"
+                  id="phone"
+                  autoComplete="phone"
                   className="py-3 px-4 block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500
                  border border-gray-300 rounded-md"
-                  {...register('sobrenome')}
+                  {...register('phone')}
                 />
               </div>
             </div>

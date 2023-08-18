@@ -3,7 +3,7 @@ import Image from 'next/image';
 const navigation = {
   company: [
     { name: 'Quem Somos', href: '/quemsomos' },
-    { name: 'Parceiros', href: '/parceiros' },
+    { name: 'Abertura de Chamados', href: '/chamados' },
     { name: 'Contato', href: '/contato' },
   ],
   social: [

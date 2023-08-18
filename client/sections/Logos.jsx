@@ -34,6 +34,16 @@ export default function Marcas() {
             className="grid grid-cols-2 gap-8 items-center justify-center [&>*]:w-full [&>*]:h-20
            [&>*]:flex sm:[&>*]:px-14"
           >
+            {/* LOGO 1 */}
+            <li>
+              <Image
+                src={'/logos/lenovo-logo-0.png'}
+                alt="dell"
+                width={100}
+                height={100}
+              />
+            </li>
+            {/* LOGO 2 */}
             <li>
               <Image
                 src={'/logos/logo-SAMSUNG.png'}
@@ -42,11 +52,10 @@ export default function Marcas() {
                 height={100}
               />
             </li>
-
-            {/* LOGO 2 */}
+            {/* LOGO 3 */}
             <li>
               <Image
-                src={'/logos/logo-HP.png'}
+                src={'/logos/logo-DELL.svg'}
                 alt="dell"
                 width={100}
                 height={100}
@@ -55,15 +64,7 @@ export default function Marcas() {
             {/* LOGO 4 */}
             <li>
               <Image
-                src={'/logos/logo-DELL.svg'}
-                alt="dell"
-                width={200}
-                height={100}
-              />
-            </li>
-            <li>
-              <Image
-                src={'/logos/logo-DELL.svg'}
+                src={'/logos/logo-HP.png'}
                 alt="dell"
                 width={100}
                 height={100}

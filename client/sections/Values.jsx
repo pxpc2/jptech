@@ -18,7 +18,7 @@ const features = [
     icon: ScaleIcon,
   },
   {
-    name: 'Transparência',
+    name: 'Atendimento',
     description:
       'Facilidade e agilidade na comunicação com clientes e interessados',
     icon: LightningBoltIcon,
@@ -26,7 +26,7 @@ const features = [
   {
     name: 'Marcas Referência',
     description:
-      'Maiores marcas do mercado, tendo como principal parceiro a Positivo.',
+      'Nosso compromisso com a excelência: Parceria com as marcas mais renomadas do mercado.',
     icon: MailIcon,
   },
 ];
