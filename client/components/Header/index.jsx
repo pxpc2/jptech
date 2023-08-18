@@ -15,7 +15,7 @@ const solutions = [
     name: 'Nossos Produtos',
     description:
       'Conheça nossos produtos e entenda como podemos trazer a solução que você precisa.',
-    href: '#',
+    href: '/nossos-produtos',
     icon: InboxIcon,
   },
   {
@@ -140,7 +140,7 @@ export default function Header() {
             <a
               href="/contato"
               className="ml-8 whitespace-nowrap inline-flex items-center
-               justify-center px-4 py-2 border border-transparent rounded-md 
+               justify-center px-6 py-2 border border-transparent rounded-md 
                shadow-sm text-base font-medium text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue"
             >
