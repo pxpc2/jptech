@@ -1,4 +1,28 @@
+'use client';
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
+import { useState } from 'react';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 export default function NossosProdutos() {
+  const [email, setEmail] = useState('');
+  const supabase = createClientComponentClient();
+
+  async function onEmailSubmit(e) {
+    console.log(email);
+    e.preventDefault();
+    const { data, error } = await supabase
+      .from('Newsletter')
+      .insert({ email: `${email}` });
+    if (error) {
+      console.log(error);
+      toast.error('Erro ao cadastrar email.');
+    } else {
+      toast.success('Email cadastrado com sucesso!');
+      setEmail('');
+    }
+  }
+
   return (
     <div className="py-16 bg-gray-50 overflow-hidden lg:py-32">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
@@ -50,7 +74,7 @@ export default function NossosProdutos() {
           </p>
         </div>
         <div className="mt-8 px-12">
-          <form className="mt-4 sm:flex sm:max-w-2xl">
+          <form className="mt-4 sm:flex sm:max-w-2xl" onSubmit={onEmailSubmit}>
             <label htmlFor="email-address" className="sr-only">
               Endereço de email
             </label>
@@ -59,6 +83,8 @@ export default function NossosProdutos() {
               name="email-address"
               id="email-address"
               autoComplete="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
               className="py-2 px-4 block w-full shadow-sm 
               border-gray-300 border rounded-md focus:outline-none focus:ring-1
