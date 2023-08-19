@@ -25,9 +25,9 @@ export default function QuemSomosHero() {
             oferecendo suporte personalizado aos nossos clientes.
           </p>
         </div>
-        <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+        <div className="lg:grid lg:grid-cols-2 lg:gap-3 lg:items-start">
           <div className="relative z-10">
-            <div className="prose prose-indigo text-gray-500 mx-auto text-left lg:max-w-none">
+            <div className="prose mt-[-25px] sm:text-lg prose-indigo pr-12 text-gray-500 mx-auto text-left lg:max-w-none">
               <p>
                 Nossa gama de produtos inclui desktops, notebooks,
                 microcomputadores, tablets, drones, periféricos de informática
