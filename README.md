@@ -1,5 +1,15 @@
-# jptech
+# JPTECH
+## www.jptech.com.br (produção)
+## https://jptech.vercel.app/ (desenvolvimento)
 
-https://jptech.vercel.app/
+Site em produção desatualizado! Somente deploy de desenvolvimento está em dia com esse repositório.
 
-https://jptechs.netlify.app/
+Referências:
+
+https://nextjs.org/
+
+https://supabase.com/ 
+
+https://vercel.com/
+
+https://www.netlify.com/
