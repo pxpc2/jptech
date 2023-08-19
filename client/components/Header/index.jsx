@@ -2,6 +2,7 @@
 
 import { Popover, Transition } from '@headlessui/react';
 import {
+  ChatIcon,
   ChevronDownIcon,
   InboxIcon,
   MenuIcon,
@@ -9,6 +10,7 @@ import {
 } from '@heroicons/react/solid';
 import { Fragment } from 'react';
 import Image from 'next/image';
+import { ChatAlt2Icon } from '@heroicons/react/outline';
 
 const solutions = [
   {
@@ -26,10 +28,7 @@ const solutions = [
     icon: MenuIcon,
   },
 ];
-const navigation = [
-  { name: 'Contato', href: '/contato' },
-  { name: 'Abertura de Chamados', href: '/chamados' },
-];
+const navigation = [{ name: 'Abertura de Chamados', href: '/chamados' }];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -144,7 +143,8 @@ export default function Header() {
                shadow-sm text-base font-medium text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue"
             >
-              Fale conosco
+              Entre em contato
+              <ChatIcon className="h-6 w-6 ml-3" />
             </a>
           </div>
         </div>
