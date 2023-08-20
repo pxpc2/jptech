@@ -25,14 +25,17 @@ export default function NewsletterFooter() {
 
   return (
     <div className="mt-8 xl:mt-0">
-      <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">
+      <h3 className="text-sm font-medium text-gray-400 tracking-wider uppercase">
         Cadastre seu email e receba nossas novidades!
       </h3>
-      <p className="mt-4 text-base text-gray-300">
+      <p className="mt-4 text-sm text-gray-300">
         Se inscreva em nossa correspondência e esteja sempre ciente de novos
         produtos e promoções!
       </p>
-      <form className="mt-4 sm:flex sm:max-w-md" onSubmit={onEmailSubmit}>
+      <form
+        className="mt-4 sm:flex text-[15px] sm:max-w-md"
+        onSubmit={onEmailSubmit}
+      >
         <label htmlFor="email-address" className="sr-only">
           Endereço de email
         </label>
@@ -44,13 +47,19 @@ export default function NewsletterFooter() {
           onChange={(e) => setEmail(e.target.value)}
           autoComplete="email"
           required
-          className="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white focus:placeholder-gray-400"
+          className="appearance-none min-w-0 w-full bg-white border border-transparent rounded-md py-2 px-4
+           text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 
+           focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white focus:border-white
+            focus:placeholder-gray-400"
           placeholder="Entre com seu email"
         />
         <div className="mt-3 rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
           <button
             type="submit"
-            className="w-full bg-jptech-brand-blue border border-transparent rounded-md py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
+            className="w-full bg-jptech-brand-blue border border-transparent rounded-md 
+            py-2 px-4 flex items-center justify-center text-[15px] 
+            font-medium text-white hover:bg-indigo-600 focus:outline-none 
+            focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500"
           >
             Inscrever-se
           </button>

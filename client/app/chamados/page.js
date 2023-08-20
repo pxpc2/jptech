@@ -96,13 +96,15 @@ export default function Chamados() {
         </svg>
         <div className="text-center">
           <h1
-            className="text-3xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r
+            className="text-3xl font-medium tracking-tight bg-clip-text text-transparent bg-gradient-to-r
          from-[#4367b6] to-[#0f2541] sm:text-4xl"
           >
             Abertura de Chamado
           </h1>
-          <p className="mt-4 text-lg leading-6 text-gray-500">
-            Preencha o formulário abaixo. Nós lhe retornaremos em até 48 horas!
+          <p className="mt-4 text-[15px] font-normal leading-7 text-gray-500">
+            Preencha o formulário abaixo. Nós lhe retornaremos
+            <br />
+            em até 48 horas!
           </p>
         </div>
         {/* ---------------------------------------- INICIO DO FORMULÁRIO ----------------------------------------*/}
@@ -110,7 +112,7 @@ export default function Chamados() {
           <form
             action="#"
             method="POST"
-            className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+            className="grid grid-cols-1 text-[15px] gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             onSubmit={handleSubmit(onSubmit)}
           >
             <div>
@@ -264,7 +266,7 @@ export default function Chamados() {
                 type="submit"
                 className="w-full inline-flex items-center justify-center
                px-6 py-3 border border-transparent rounded-md shadow-sm 
-               text-base font-medium text-white bg-jptech-brand-blue
+               text-base font-normal text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue focus:outline-none focus:ring-2 
                 focus:ring-offset-2 focus:ring-indigo-500"
               >

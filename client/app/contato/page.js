@@ -96,12 +96,12 @@ export default function Contato() {
         </svg>
         <div className="text-center">
           <h1
-            className="text-3xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r
+            className="text-3xl font-medium tracking-tight bg-clip-text text-transparent bg-gradient-to-r
          from-[#4367b6] to-[#0f2541] sm:text-4xl"
           >
             Entre em contato
           </h1>
-          <p className="mt-4 text-lg leading-6 text-gray-500">
+          <p className="mt-4 text-[15px] leading-6 text-gray-500">
             Conecte-se conosco. Estamos ansiosos para ouvir você!
           </p>
         </div>
@@ -110,7 +110,7 @@ export default function Contato() {
           <form
             action="#"
             method="POST"
-            className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+            className="grid grid-cols-1 gap-y-6 text-[15px] sm:grid-cols-2 sm:gap-x-8"
             onSubmit={handleSubmit(onSubmit)}
           >
             <div>
@@ -143,7 +143,7 @@ export default function Contato() {
               </label>
               <div className="mt-1">
                 <input
-                  type="number"
+                  type="text"
                   name="phone"
                   placeholder="+55 61 93333-3333"
                   id="phone"
@@ -203,7 +203,7 @@ export default function Contato() {
                 type="submit"
                 className="w-full inline-flex items-center justify-center
                px-6 py-3 border border-transparent rounded-md shadow-sm 
-               text-base font-medium text-white bg-jptech-brand-blue
+               text-base font-normal text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue focus:outline-none focus:ring-2 
                 focus:ring-offset-2 focus:ring-indigo-500"
               >

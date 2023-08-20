@@ -57,11 +57,14 @@ export default function Header() {
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
           </div>
-          <Popover.Group as="nav" className="hidden md:flex space-x-10">
+          <Popover.Group
+            as="nav"
+            className="hidden md:flex space-x-10 align-middle"
+          >
             <a
               key={'Quem Somos'}
               href="/quemsomos"
-              className="text-base font-medium text-slate-700 hover:font-semibold"
+              className="text-[14px] font-normal text-jptech-brand-blue hover:font-medium"
             >
               Quem Somos
             </a>
@@ -70,15 +73,17 @@ export default function Header() {
                 <>
                   <Popover.Button
                     className={classNames(
-                      open ? 'text-slate-900 font-semibold' : 'text-slate-700',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      open ? 'font-medium' : '',
+                      ' bg-white text-jptech-brand-blue rounded-md inline-flex align-top items-center text-[14px] font-normal hover:font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-jptech-brand-blue'
                     )}
                   >
-                    <span>Soluções</span>
+                    <a>Soluções</a>
                     <ChevronDownIcon
                       className={classNames(
-                        open ? 'text-slate-900' : 'text-slate-700',
-                        'ml-2 h-5 w-5 group-hover:font-semibold'
+                        open
+                          ? 'text-jptech-brand-blue'
+                          : 'text-jptech-brand-blue',
+                        'ml-2 h-5 w-5 group-hover:font-medium'
                       )}
                       aria-hidden="true"
                     />
@@ -93,26 +98,29 @@ export default function Header() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                   >
-                    <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+                    <Popover.Panel className="absolute z-10 -ml-4 mt-4 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-10 lg:grid-cols-2">
                           {solutions.map((item) => (
                             <a
                               key={item.name}
                               href={item.href}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
                             >
-                              <div className="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-jptech-brand-blue text-white sm:h-12 sm:w-12">
+                              <div
+                                className="flex-shrink-0 flex items-center justify-center h-10 w-10 
+                              rounded-md bg-jptech-brand-blue text-white sm:h-12 sm:w-12"
+                              >
                                 <item.icon
                                   className="h-6 w-6"
                                   aria-hidden="true"
                                 />
                               </div>
                               <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">
+                                <p className="text-[14px] font-normal hover:underline text-jptech-brand-blue">
                                   {item.name}
                                 </p>
-                                <p className="mt-1 text-sm text-gray-500">
+                                <p className="mt-1 text-[13px] font-normal leading-[1.4rem] text-gray-500">
                                   {item.description}
                                 </p>
                               </div>
@@ -129,22 +137,21 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-base font-medium text-slate-700 hover:font-semibold"
+                className="text-[14px] font-normal text-jptech-brand-blue hover:font-medium"
               >
                 {item.name}
               </a>
             ))}
           </Popover.Group>
-          <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+          <div className="hidden md:flex items-center align-top justify-end md:flex-1 ">
             <a
               href="/contato"
-              className="ml-8 whitespace-nowrap inline-flex items-center
+              className="inline-flex items-center
                justify-center px-6 py-2 border border-transparent rounded-md 
-               shadow-sm text-base font-medium text-white bg-jptech-brand-blue
+               shadow-sm text-[14px] font-normal text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue"
             >
               Entre em contato
-              <ChatIcon className="h-6 w-6 ml-3" />
             </a>
           </div>
         </div>

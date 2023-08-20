@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Solucoes() {
   return (
-    <div className="max-w-7xl mx-auto sm:px-12 lg:px-12 sm:py-12">
+    <div className="max-w-7xl mx-auto sm:px-12">
       <div
         className="relative shadow-lg hover:shadow-2xl 
       duration-500 sm:rounded-2xl sm:overflow-hidden"
@@ -10,7 +10,7 @@ export default function Solucoes() {
         {' '}
         <div
           className="flex flex-col sm:flex-row px-12 sm:px-0 sm:py-24 
-        flex-nowrap items-center ml-8 sm:gap-20 "
+        flex-nowrap items-center ml-8 sm:gap-20"
         >
           <div className="SOLUCOES__IMAGEM w-full mt-8 sm:mt-0 mb-4 sm:mb-0">
             <Image
@@ -25,11 +25,11 @@ export default function Solucoes() {
             <div className="flex flex-col sm:flex-row flex-nowrap sm:w-[500px]">
               <h1
                 className="text-gray-800 text-3xl sm:text-[40px] text-center
-               sm:text-left  font-semibold sm:leading-[48px] sm:w-[400px]"
+               sm:text-left  font-medium sm:leading-[48px] sm:w-[400px]"
               >
                 Levamos a inovação tecnológica para&nbsp;
                 <span
-                  className="bg-clip-text font-semibold text-transparent
+                  className="bg-clip-text font-medium text-transparent
                  bg-gradient-to-r from-[#27478d] to-[#2a6ec7]"
                 >
                   todo
@@ -39,8 +39,8 @@ export default function Solucoes() {
             </div>
 
             <p
-              className="text-slate-800 font-normal text-base sm:text-md w-[400px] sm:h-[135px]
-             text-center pb-8 ease-in-out duration-500 hover:underline   sm:pb-0 sm:text-left"
+              className="text-slate-800 font-normal text-base sm:text-md w-[400px]
+             text-center pb-8 ease-in-out duration-500 hover:underline  sm:text-left"
             >
               Com uma abordagem que transcende fronteiras, estamos empenhados em
               difundir a inovação tecnológica por todo o Brasil. Do Norte ao

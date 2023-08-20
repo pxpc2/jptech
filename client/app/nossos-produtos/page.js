@@ -62,7 +62,7 @@ export default function NossosProdutos() {
 
         <div className="relative">
           <h2
-            className="text-left text-4xl leading-snug bg-clip-text font-bold text-transparent 
+            className="text-left text-4xl leading-snug bg-clip-text font-medium text-transparent 
                   bg-gradient-to-r from-[#4367b6] to-[#0f2541] px-12"
           >
             Estamos empenhados no desenvolvimento da nossa própria linha de
@@ -95,7 +95,7 @@ export default function NossosProdutos() {
               type="submit"
               className="w-[50%] ml-4 inline-flex items-center justify-center
               py-2 border border-transparent rounded-md shadow-sm 
-              text-base font-medium text-white bg-jptech-brand-blue
+              text-[15px] font-normal text-white bg-jptech-brand-blue
                hover:bg-jptech-brand-lighterblue focus:outline-none focus:ring-2 
                focus:ring-offset-2 focus:ring-indigo-500"
             >

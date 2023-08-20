@@ -1,5 +1,5 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { PresentationChartLineIcon, EyeIcon } from '@heroicons/react/outline';
+import Image from 'next/image';
 
 export default function MissaoVisao() {
   return (
@@ -20,10 +20,10 @@ export default function MissaoVisao() {
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h2 className="text-[25px] font-medium text-jptech-brand-blue">
                   Missão
                 </h2>
-                <p className="mt-4 text-lg text-gray-500">
+                <p className="mt-4 text-[15px] leading-7 text-gray-500">
                   Desenvolver nossa própria linha de produtos de TI, trazendo
                   soluções tecnológicas personalizadas, responsáveis por
                   impulsionar o desenvolvimento e a transformação do ambiente de
@@ -59,10 +59,13 @@ export default function MissaoVisao() {
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-              <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+              <Image
+                className="w-full rounded-xl shadow-xl ring-1 ring-black 
+                ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 src="/molier.png"
                 alt="Inbox user interface"
+                width={1000}
+                height={0}
               />
             </div>
           </div>
@@ -81,10 +84,10 @@ export default function MissaoVisao() {
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                <h2 className="text-[25px] font-medium  text-jptech-brand-blue">
                   Visão
                 </h2>
-                <p className="mt-4 text-lg text-gray-500">
+                <p className="mt-4 text-[15px] leading-7 text-gray-500">
                   Almejamos ser a escolha indiscutível em tecnologia para
                   empresas e instituições governamentais. Nosso nome será
                   sinônimo de referência, destacando-nos por nossa excelência,
@@ -94,7 +97,7 @@ export default function MissaoVisao() {
                   <a
                     href="/contato"
                     className="inline-flex px-4 py-2 border border-transparent
-                     text-base font-medium rounded-md shadow-sm text-white
+                     text-[15px] font-normal rounded-md shadow-sm text-white
                       bg-jptech-brand-blue hover:bg-jptech-brand-lighterblue"
                   >
                     Tire suas dúvidas

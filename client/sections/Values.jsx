@@ -73,17 +73,12 @@ export default function Values() {
 
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
-            <h2
-              className="text-3xl font-semibold  tracking-tight sm:text-4xl 
-          "
-            >
-              <span className="text-slate-800">
-                Os diferenciais que você precisa.
-              </span>
+            <h2 className="text-3xl font-medium  tracking-tight sm:text-[40px] leading-10">
+              Os diferenciais que você precisa.
             </h2>
           </div>
           <dl
-            className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10
+            className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-10 sm:px-12 sm:gap-y-10
            lg:mt-0 lg:col-span-2"
           >
             {features.map((feature) => (
@@ -92,11 +87,11 @@ export default function Values() {
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-jptech-brand-blue text-white">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="mt-5 text-lg leading-6 font-medium text-slate-800 hover:underline">
+                  <p className="mt-5 text-[18px] leading-6 font-medium text-slate-800 hover:underline">
                     {feature.name}
                   </p>
                 </dt>
-                <dd className="mt-2 text-base text-gray-500">
+                <dd className="mt-2 text-[15px] text-gray-500">
                   {feature.description}
                 </dd>
               </div>

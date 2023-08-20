@@ -76,7 +76,7 @@ export default function Footer() {
                 <div key={item.name} className="px-5 py-2">
                   <a
                     href={item.href}
-                    className="text-base text-gray-400  hover:text-slate-200"
+                    className="text-base font-normal text-gray-400  hover:text-slate-200"
                   >
                     {item.name}
                   </a>

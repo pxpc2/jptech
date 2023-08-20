@@ -11,18 +11,21 @@ export default function Marcas() {
           className="max-w-xl space-y-6 items-center justify-center flex flex-col
         sm:items-start"
         >
-          <p className="text-slate-200 text-3xl text-center sm:text-left font-semibold sm:text-4xl">
+          <p
+            className="text-slate-200 text-3xl text-center sm:text-left font-medium sm:text-[40px]
+          sm:leading-snug"
+          >
             As melhores marcas do mercado.
           </p>
-          <p className="text-slate-300 text-center sm:text-left">
+          <p className="text-slate-300 text-center text-[15px] sm:text-left">
             Trabalhamos com os maiores, garantindo desempenho, eficiência,
             durabilidade e segurança aos nossos clientes.
           </p>
 
           <a href="/contato" className="">
             <button
-              className="px-4 py-3 mt-8 border border-transparent text-base 
-              font-medium rounded-md shadow-sm
+              className="px-4 py-3 mt-8 border border-transparent text-[15px] 
+              font-normal rounded-md shadow-sm
            text-jptech-brand-blue bg-slate-100 hover:bg-slate-200 sm:px-8"
             >
               Entre em contato!

@@ -97,23 +97,23 @@ export default function CTA() {
             </div>
             <div className="relative max-w-md mx-auto py-12 px-8 space-y-8 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-4">
               <h2
-                className="text-3xl font-semibold text-center sm:text-left text-slate-200 hover:underline"
+                className="text-[40px] font-medium text-center leading-10 sm:text-left text-slate-200 hover:underline"
                 id="join-heading"
               >
                 Conheça nossa empresa
               </h2>
-              <p className="text-lg text-center sm:text-left text-slate-200">
+              <p className="text-[15px] font-normal leading-7 text-center sm:text-left text-slate-200">
                 Explore a amplitude e a qualidade que definem nossos produtos e
                 soluções. Nossa busca incansável pela excelência é o que nos
                 diferencia no cenário tecnológico
               </p>
               <a
                 className="block w-full py-3 px-5 text-center bg-slate-100 border
-                 border-transparent rounded-md shadow-md text-base font-medium
+                 border-transparent rounded-md shadow-md text-base font-regular
                   text-jptech-brand-blue hover:bg-gray-200 sm:inline-block sm:w-auto"
                 href="/parceiros-produtos"
               >
-                Explore produtos de parceiros!
+                Veja produtos de parceiros
               </a>
               <Image
                 src={'/logos/mainlogo.jpg'}
