@@ -64,7 +64,7 @@ export default function Header() {
             <a
               key={'Quem Somos'}
               href="/quemsomos"
-              className="text-[14px] font-normal text-jptech-brand-blue hover:font-medium"
+              className="text-[14px] font-normal text-gray-800 hover:font-medium"
             >
               Quem Somos
             </a>
@@ -74,15 +74,13 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'font-medium' : '',
-                      ' bg-white text-jptech-brand-blue rounded-md inline-flex align-top items-center text-[14px] font-normal hover:font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-jptech-brand-blue'
+                      ' bg-white text-gray-800 rounded-md inline-flex align-top items-center text-[14px] font-normal hover:font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-jptech-brand-blue'
                     )}
                   >
                     <a>Soluções</a>
                     <ChevronDownIcon
                       className={classNames(
-                        open
-                          ? 'text-jptech-brand-blue'
-                          : 'text-jptech-brand-blue',
+                        open ? 'text-gray-800' : 'text-gray-800',
                         'ml-2 h-5 w-5 group-hover:font-medium'
                       )}
                       aria-hidden="true"
@@ -117,7 +115,7 @@ export default function Header() {
                                 />
                               </div>
                               <div className="ml-4">
-                                <p className="text-[14px] font-normal hover:underline text-jptech-brand-blue">
+                                <p className="text-[14px] font-normal hover:underline text-gray-800">
                                   {item.name}
                                 </p>
                                 <p className="mt-1 text-[13px] font-normal leading-[1.4rem] text-gray-500">
@@ -137,7 +135,7 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-[14px] font-normal text-jptech-brand-blue hover:font-medium"
+                className="text-[14px] font-normal text-gray-800 hover:font-medium"
               >
                 {item.name}
               </a>

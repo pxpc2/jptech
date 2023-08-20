@@ -45,7 +45,7 @@ export default function Hero() {
                       href="/quemsomos"
                       className="flex flex-row items-center text-center align-top px-4 py-3
                      border border-transparent text-[15px] font-normal rounded-md shadow-sm
-                      text-jptech-brand-blue  bg-white hover:bg-indigo-100 sm:px-8"
+                     text-gray-800  bg-white hover:bg-indigo-100 sm:px-8"
                     >
                       Conheça mais
                     </a>

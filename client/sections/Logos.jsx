@@ -26,7 +26,7 @@ export default function Marcas() {
             <button
               className="px-4 py-3 mt-8 border border-transparent text-[15px] 
               font-normal rounded-md shadow-sm
-           text-jptech-brand-blue bg-slate-100 hover:bg-slate-200 sm:px-8"
+              text-gray-800 bg-slate-100 hover:bg-slate-200 sm:px-8"
             >
               Entre em contato!
             </button>

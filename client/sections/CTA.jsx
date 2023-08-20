@@ -110,7 +110,7 @@ export default function CTA() {
               <a
                 className="block w-full py-3 px-5 text-center bg-slate-100 border
                  border-transparent rounded-md shadow-md text-base font-regular
-                  text-jptech-brand-blue hover:bg-gray-200 sm:inline-block sm:w-auto"
+                 text-gray-800 hover:bg-gray-200 sm:inline-block sm:w-auto"
                 href="/parceiros-produtos"
               >
                 Veja produtos de parceiros
