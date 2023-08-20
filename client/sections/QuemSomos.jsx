@@ -52,7 +52,7 @@ export default function QuemSomosHero() {
             <div className="mt-10 flex text-base max-w-prose mx-auto lg:max-w-none">
               <div className="rounded-md shadow">
                 <a
-                  href="#"
+                  href="/nossos-produtos"
                   className="w-full flex items-center justify-center px-5 py-3 border
                  border-transparent text-base font-normal rounded-md text-white
                   bg-jptech-brand-blue hover:bg-jptech-brand-lighterblue"
@@ -114,7 +114,7 @@ export default function QuemSomosHero() {
                   width={300}
                   height={100}
                 />
-                <div className="relative text-lg text-gray-700 font-normal mt-8">
+                <div className="relative text-[15px] leading-7 text-gray-700 font-normal mt-8">
                   <svg
                     className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200"
                     fill="currentColor"

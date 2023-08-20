@@ -93,16 +93,6 @@ export default function MissaoVisao() {
                   sinônimo de referência, destacando-nos por nossa excelência,
                   inovação e compromisso com a satisfação do cliente.
                 </p>
-                <div className="mt-6">
-                  <a
-                    href="/contato"
-                    className="inline-flex px-4 py-2 border border-transparent
-                     text-[15px] font-normal rounded-md shadow-sm text-white
-                      bg-jptech-brand-blue hover:bg-jptech-brand-lighterblue"
-                  >
-                    Tire suas dúvidas
-                  </a>
-                </div>
               </div>
             </div>
           </div>
