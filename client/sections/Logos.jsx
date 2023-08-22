@@ -2,78 +2,55 @@ import Image from 'next/image';
 
 export default function Marcas() {
   return (
-    <div className="py-28 bg-slate-900">
-      <div
-        className="max-w-screen-xl mx-auto px-12 flex-wrap gap-x-12 justify-between items-center 
-      md:flex md:px-8 lg:flex-nowrap"
-      >
-        <div
-          className="max-w-xl space-y-6 items-center justify-center flex flex-col
-        sm:items-start"
-        >
-          <p
-            className="text-slate-200 text-3xl text-center sm:text-left font-medium sm:text-[40px]
-          sm:leading-snug"
+    <div className="bg-gray-50 py-24 my-8">
+      <div className="container m-auto space-y-8 px-6 text-gray-500 md:px-12 lg:px-40">
+        <div className="mb-8">
+          <h6
+            className="text-[35px] pb-4 text-center font-medium
+          text-black transition hover:scale-105"
           >
             As melhores marcas do mercado.
-          </p>
-          <p className="text-slate-300 text-center text-[15px] sm:text-left">
+          </h6>
+          <p className="text-center pb-8">
             Trabalhamos com os maiores, garantindo desempenho, eficiência,
             durabilidade e segurança aos nossos clientes.
-          </p>
-
-          <a href="/contato" className="">
-            <button
-              className="px-4 py-3 mt-8 border border-transparent text-[15px] 
-              font-normal rounded-md shadow-sm
-              text-gray-800 bg-slate-100 hover:bg-slate-200 sm:px-8"
+            <br />
+            <a
+              href="/contato"
+              className="underline hover:text-jptech-brand-blue
+            text-black"
             >
-              Entre em contato!
-            </button>
-          </a>
+              Entre em contato agora!
+            </a>
+          </p>
         </div>
-        <div className="flex-none mt-12 text-white lg:mt-0">
-          <ul
-            className="grid grid-cols-2 gap-8 items-center justify-center [&>*]:w-full [&>*]:h-20
-           [&>*]:flex sm:[&>*]:px-14"
-          >
-            {/* LOGO 1 */}
-            <li>
-              <Image
-                src={'/logos/lenovo-logo-0.png'}
-                alt="dell"
-                width={100}
-                height={100}
-              />
-            </li>
-            {/* LOGO 2 */}
-            <li>
-              <Image
-                src={'/logos/logo-SAMSUNG.png'}
-                alt="dell"
-                width={200}
-                height={100}
-              />
-            </li>
-            {/* LOGO 3 */}
-            <li>
-              <Image
-                src={'/logos/logo-DELL.svg'}
-                alt="dell"
-                width={100}
-                height={100}
-              />
-            </li>
-            {/* LOGO 4 */}
-            <li>
-              <Image
-                src={'/logos/logo-HP.png'}
-                alt="dell"
-                width={100}
-                height={100}
-              />
-            </li>
-          </ul>
+        <div className="px-8">
+          <div className="flex flex-row gap-24 lg:justify-center">
+            <img
+              src="/logos/lenovo-logo-0.png"
+              loading="lazy"
+              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              alt="logo"
+            />
+            <img
+              src="/logos/logo-DELL.png"
+              loading="lazy"
+              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              alt="logo"
+            />
+            <img
+              src="/logos/logo-HP.png"
+              loading="lazy"
+              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              alt="logo"
+            />
+            <img
+              src="/logos/samsung.png"
+              loading="lazy"
+              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              alt="logo"
+            />
+          </div>
         </div>
       </div>
     </div>
