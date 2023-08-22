@@ -6,8 +6,9 @@ export default function Marcas() {
       <div className="container m-auto space-y-8 px-6 text-gray-500 md:px-12 lg:px-40">
         <div className="mb-8">
           <h6
-            className="text-[35px] pb-4 text-center font-medium
-          text-black transition hover:scale-105"
+            className="text-[40px] pb-4 text-center font-medium
+            bg-clip-text text-transparent 
+            bg-gradient-to-r from-[#4367b6] to-[#0f2541] transition hover:scale-105"
           >
             As melhores marcas do mercado.
           </h6>
@@ -29,25 +30,25 @@ export default function Marcas() {
             <img
               src="/logos/lenovo-logo-0.png"
               loading="lazy"
-              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              className="w-[200px] h-[200px]  transition hover:grayscale"
               alt="logo"
             />
             <img
               src="/logos/logo-DELL.png"
               loading="lazy"
-              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              className="w-[200px] h-[200px]  transition hover:grayscale"
               alt="logo"
             />
             <img
               src="/logos/logo-HP.png"
               loading="lazy"
-              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              className="w-[200px] h-[200px]  transition hover:grayscale"
               alt="logo"
             />
             <img
               src="/logos/samsung.png"
               loading="lazy"
-              className="w-[200px] h-[200px] grayscale transition hover:grayscale-0"
+              className="w-[200px] h-[200px]  transition hover:grayscale"
               alt="logo"
             />
           </div>
