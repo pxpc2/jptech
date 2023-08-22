@@ -26,7 +26,7 @@ export default async function ProdutosParceiros() {
               flex flex-col overflow-hidden items-center"
             >
               <div
-                className="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-75
+                className="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-50
               sm:aspect-none w-[250px]"
               >
                 <Image
@@ -36,6 +36,17 @@ export default async function ProdutosParceiros() {
                   height={100}
                   className="w-full object-center object-cover"
                 />
+              </div>
+              <div
+                className="absolute inset-0 flex items-center justify-center opacity-0
+               group-hover:opacity-100 transition-opacity"
+              >
+                <span
+                  className="text-white text-md rounded-lg bg-jptech-brand-blue
+                 bg-opacity-50 p-2"
+                >
+                  Saiba mais
+                </span>
               </div>
               <div className="flex-1 p-4 gap-2 space-y-2 flex flex-col">
                 <h3 className="text-sm font-medium text-gray-900">
@@ -50,9 +61,6 @@ export default async function ProdutosParceiros() {
                 <div className="flex-1 flex flex-col justify-end">
                   <p className="text-xs text-gray-500">
                     {'2 opções disponíveis'}
-                  </p>
-                  <p className="text-sm font-medium text-gray-900">
-                    {'R$200.99'}
                   </p>
                 </div>
               </div>
