@@ -23,19 +23,19 @@ export default async function ProdutosQuinyx() {
           {ProdutosQuinyx.map((item) => (
             <div
               key={item.id}
-              className="group max-w-[350px] relative bg-white border border-gray-200 rounded-lg
+              className="group max-w-[350px] mx-8 sm:mx-0 relative bg-white border border-gray-200 rounded-lg
               flex flex-col overflow-hidden items-center"
             >
               <div
-                className="aspect-w-3 aspect-h-4 bg-gray-200 group-hover:opacity-50
-              sm:aspect-none w-[250px]"
+                className="aspect-w-3 aspect-h-4 flex bg-white group-hover:opacity-50
+              sm:aspect-none w-[250px] h-[250px]"
               >
                 <Image
                   src={item.image_url}
                   alt={item.title}
                   width={300}
                   height={100}
-                  className="w-full object-center object-cover"
+                  className="w-full object-center object-contain"
                 />
               </div>
               <div

@@ -12,6 +12,7 @@ export default function Hero() {
                 <Image
                   className="h-full w-full object-cover"
                   src="/hero-bg.png"
+                  loading="eager"
                   alt="People working on laptops"
                   width={800}
                   height={500}
