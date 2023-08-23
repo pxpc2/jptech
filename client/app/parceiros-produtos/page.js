@@ -23,12 +23,13 @@ export default async function ProdutosQuinyx() {
           {ProdutosQuinyx.map((item) => (
             <div
               key={item.id}
-              className="group max-w-[350px] mx-8 sm:mx-0 relative bg-white border border-gray-200 rounded-lg
+              className="group max-w-[350px] mx-8 sm:mx-0 relative bg-white border
+               border-gray-200 rounded-lg
               flex flex-col overflow-hidden items-center"
             >
               <div
-                className="aspect-w-3 aspect-h-4 flex bg-white group-hover:opacity-50
-              sm:aspect-none w-[250px] h-[250px]"
+                className="aspect-w-3 aspect-h-4 flex bg-white
+              sm:aspect-none w-[250px] h-[250px]  group-hover:opacity-50"
               >
                 <Image
                   src={item.image_url}
@@ -39,12 +40,12 @@ export default async function ProdutosQuinyx() {
                 />
               </div>
               <div
-                className="absolute inset-0 flex items-center justify-center opacity-0
-               group-hover:opacity-100 transition-opacity"
+                className="absolute  top-1/4 flex items-center justify-center opacity-0
+               group-hover:opacity-80 transition-opacity"
               >
                 <span
-                  className="text-white text-md rounded-lg bg-jptech-brand-blue
-                 bg-opacity-50 p-2"
+                  className="text-white text-sm rounded-lg bg-jptech-brand-blue
+                 bg-opacity-100 p-3"
                 >
                   Saiba mais
                 </span>
