@@ -10,12 +10,12 @@ export default function Hero() {
             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <div className="absolute inset-0">
                 <Image
+                  fill
                   className="h-full w-full object-cover"
                   src="/hero-bg.png"
-                  loading="eager"
+                  priority={true}
                   alt="People working on laptops"
-                  width={800}
-                  height={500}
+                  sizes="(max-width: 768px) 100vw, 100vw"
                 />
                 <div className="absolute inset-0 bg-indigo-700 mix-blend-multiply" />
               </div>

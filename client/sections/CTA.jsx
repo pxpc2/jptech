@@ -15,8 +15,8 @@ export default function CTA() {
                 <Image
                   src={'/people.jpg'}
                   alt="img"
-                  width={700}
-                  height={700}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 100vw"
                   className="object-cover object-center rounded-3xl shadow-2xl"
                 />
               </div>
@@ -104,7 +104,7 @@ export default function CTA() {
             px-8 space-y-8 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:py-24 lg:col-start-4 lg:col-span-4"
             >
               <h2
-                className="text-[40px] font-medium text-center leading-10 sm:text-left text-slate-200 hover:underline"
+                className="text-[40px] font-medium text-center leading-snug sm:text-left text-slate-200 hover:underline"
                 id="join-heading"
               >
                 Conheça nossa empresa
@@ -127,6 +127,7 @@ export default function CTA() {
                 alt="logo"
                 width={500}
                 height={500}
+                sizes="(max-width: 768px) 100vw, 100vw"
                 className="opacity-90 hover:scale-110 ease-in-out pt-8 duration-300 lg:ml-24"
               />
             </div>
