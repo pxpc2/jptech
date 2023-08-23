@@ -3,23 +3,24 @@ import { cookies } from 'next/headers';
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs';
 export const dynamic = 'force-dynamic';
 
-export default async function ProdutosParceiros() {
+export default async function ProdutosQuinyx() {
   const supabase = createServerComponentClient({ cookies });
 
-  const { data: ProdutosParceiros } = await supabase
-    .from('ProdutosParceiros')
+  const { data: ProdutosQuinyx } = await supabase
+    .from('ProdutosQuinyx')
     .select();
+
+  console.log(ProdutosQuinyx.length + 'OI OI OI ');
 
   return (
     <div className="bg-white">
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <h1 className="sr-only">Produtos de Parceiros</h1>
-
         <div
           className=" grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 
        lg:grid-cols-3 lg:gap-x-8"
         >
-          {ProdutosParceiros.map((item) => (
+          {ProdutosQuinyx.map((item) => (
             <div
               key={item.id}
               className="group max-w-[350px] relative bg-white border border-gray-200 rounded-lg
@@ -50,7 +51,7 @@ export default async function ProdutosParceiros() {
               </div>
               <div className="flex-1 p-4 gap-2 space-y-2 flex flex-col">
                 <h3 className="text-sm font-medium text-gray-900">
-                  <a href={'#'}>
+                  <a href={`/parceiros-produtos/${item.id}`}>
                     <span aria-hidden="true" className="absolute inset-0" />
                     {item.title}
                   </a>
