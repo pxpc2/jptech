@@ -5,7 +5,7 @@ export default function Solucoes() {
     <div className="max-w-7xl mx-auto sm:px-12">
       <div
         className="relative shadow-lg hover:shadow-2xl 
-      duration-500 sm:rounded-2xl sm:overflow-hidden"
+      duration-500 sm:rounded-2xl sm:overflow-hidden bg-gray-200 bg-opacity-20 my-20"
       >
         {' '}
         <div
@@ -39,7 +39,7 @@ export default function Solucoes() {
             </div>
 
             <p
-              className="text-slate-800 font-normal text-sm sm:text-md sm:w-[400px]
+              className="text-slate-800 font-normal text-sm leading-7 sm:text-md sm:w-[400px]
              text-center pb-8 ease-in-out duration-500 hover:underline  sm:text-left"
             >
               Com uma abordagem que transcende fronteiras, estamos empenhados em

@@ -7,7 +7,7 @@ export default function CTA() {
         className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 sm:block"
         aria-hidden="true"
       />
-      <div className="max-w-7xl mx-auto bg-jptech-brand-blue px-4 lg:bg-transparent lg:px-8">
+      <div className="max-w-7xl mx-auto bg-jptech-brand-blue px-4 lg:bg-transparent lg:px-8 ">
         <div className="lg:grid lg:grid-cols-12">
           <div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
             <div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
@@ -23,13 +23,17 @@ export default function CTA() {
             </div>
           </div>
 
-          <div className="relative bg-jptech-brand-blue lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
+          <div
+            className="relative bg-jptech-brand-blue lg:col-start-3 lg:row-start-1 lg:col-span-10
+           lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center"
+          >
             <div
               className="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block"
               aria-hidden="true"
             >
               <svg
-                className="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0"
+                className="absolute bottom-full left-full transform translate-y-1/3
+                 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0"
                 width={404}
                 height={384}
                 fill="none"
@@ -95,21 +99,24 @@ export default function CTA() {
                 />
               </svg>
             </div>
-            <div className="relative max-w-md mx-auto py-12 px-8 space-y-8 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-4">
+            <div
+              className="relative max-w-md mx-auto py-12 
+            px-8 space-y-8 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:py-24 lg:col-start-4 lg:col-span-4"
+            >
               <h2
                 className="text-[40px] font-medium text-center leading-10 sm:text-left text-slate-200 hover:underline"
                 id="join-heading"
               >
                 Conheça nossa empresa
               </h2>
-              <p className="text-[15px] font-normal leading-7 text-center sm:text-left text-slate-200">
+              <p className="text-[15px] font-light leading-7 text-center sm:text-left text-slate-200">
                 Explore a amplitude e a qualidade que definem nossos produtos e
                 soluções. Nossa busca incansável pela excelência é o que nos
                 diferencia no cenário tecnológico
               </p>
               <a
                 className="block w-full py-3 px-5 text-center bg-slate-100 border
-                 border-transparent rounded-md shadow-md text-base font-regular
+                 border-transparent rounded-md shadow-md text-[15px] font-regular
                  text-gray-800 hover:bg-gray-200 sm:inline-block sm:w-auto"
                 href="/parceiros-produtos"
               >
