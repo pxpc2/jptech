@@ -25,8 +25,8 @@ export default function Marcas() {
             </a>
           </p>
         </div>
-        <div className="px-8">
-          <div className="flex flex-row gap-24 lg:justify-center">
+        <div className="sm:px-8">
+          <div className="flex flex-col items-center sm:flex-row sm:gap-24 gap-8 lg:justify-center">
             <img
               src="/logos/lenovo-logo-0.png"
               loading="lazy"

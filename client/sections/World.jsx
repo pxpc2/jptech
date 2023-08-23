@@ -9,8 +9,8 @@ export default function Solucoes() {
       >
         {' '}
         <div
-          className="flex flex-col sm:flex-row px-12 sm:px-0 sm:py-24 
-        flex-nowrap items-center ml-8 sm:gap-20"
+          className="flex flex-col sm:flex-row px-8 sm:px-0 sm:py-24 
+        flex-nowrap items-center sm:ml-8 sm:gap-20"
         >
           <div className="SOLUCOES__IMAGEM w-full mt-8 sm:mt-0 mb-4 sm:mb-0">
             <Image
@@ -24,7 +24,7 @@ export default function Solucoes() {
           <div className="SOLUCOES__TEXTOS flex flex-col gap-8">
             <div className="flex flex-col sm:flex-row flex-nowrap sm:w-[500px]">
               <h1
-                className="text-gray-800 text-3xl sm:text-[40px] text-center
+                className="text-gray-800 text-2xl sm:text-[40px] text-center
                sm:text-left  font-medium sm:leading-[48px] sm:w-[400px]"
               >
                 Levamos a inovação tecnológica para&nbsp;
@@ -39,7 +39,7 @@ export default function Solucoes() {
             </div>
 
             <p
-              className="text-slate-800 font-normal text-base sm:text-md w-[400px]
+              className="text-slate-800 font-normal text-sm sm:text-md sm:w-[400px]
              text-center pb-8 ease-in-out duration-500 hover:underline  sm:text-left"
             >
               Com uma abordagem que transcende fronteiras, estamos empenhados em
