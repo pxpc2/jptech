@@ -45,7 +45,7 @@ export default function Header() {
               <Image
                 src={'/logos/jptech-blacklogo.png'}
                 alt="logo"
-                width={250}
+                width={270}
                 height={250}
                 className="ease-in-out duration-150 hover:scale-105"
               />
@@ -64,7 +64,7 @@ export default function Header() {
             <a
               key={'Quem Somos'}
               href="/quemsomos"
-              className="text-[14px] font-normal text-gray-800 hover:font-medium"
+              className="text-lg font-normal text-gray-800 hover:font-medium"
             >
               Quem Somos
             </a>
@@ -74,7 +74,7 @@ export default function Header() {
                   <Popover.Button
                     className={classNames(
                       open ? 'font-medium' : '',
-                      ' bg-white text-gray-800 rounded-md inline-flex align-top items-center text-[14px] font-normal hover:font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-jptech-brand-blue'
+                      ' bg-white text-gray-800 rounded-md inline-flex align-top items-center text-lg font-normal hover:font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-jptech-brand-blue'
                     )}
                   >
                     <a>Soluções</a>
@@ -115,10 +115,10 @@ export default function Header() {
                                 />
                               </div>
                               <div className="ml-4">
-                                <p className="text-[14px] font-normal hover:underline text-gray-800">
+                                <p className="text-lg font-normal hover:underline text-gray-800">
                                   {item.name}
                                 </p>
-                                <p className="mt-1 text-[13px] font-normal leading-[1.4rem] text-gray-500">
+                                <p className="mt-1 text-base font-normal leading-[1.4rem] text-gray-500">
                                   {item.description}
                                 </p>
                               </div>
@@ -135,7 +135,7 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-[14px] font-normal text-gray-800 hover:font-medium"
+                className="text-lg font-normal text-gray-800 hover:font-medium"
               >
                 {item.name}
               </a>
@@ -146,7 +146,7 @@ export default function Header() {
               href="/contato"
               className="inline-flex items-center
                justify-center px-6 py-2 border border-transparent rounded-md 
-               shadow-sm text-[14px] font-normal text-white bg-jptech-brand-blue
+               shadow-sm text-lg font-normal text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue"
             >
               Entre em contato

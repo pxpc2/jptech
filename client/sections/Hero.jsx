@@ -22,21 +22,22 @@ export default function Hero() {
               <div className="relative px-8 py-28 sm:px-6 lg:px-8">
                 <h1
                   className="text-center text-4xl font-medium tracking-tight
-                 sm:text-5xl hover:scale-105 lg:text-6xl ease-in-out duration-300"
+                 sm:text-5xl hover:scale-105 lg:text-6xl ease-in-out duration-300
+                 title"
                 >
-                  <span className="block text-slate-200 mb-2">
+                  <span className="block title text-slate-200 mb-2">
                     Seu parceiro em
                   </span>
                   <span
                     className="bg-clip-text font-bold text-transparent 
-                  bg-gradient-to-r from-[#ffffff] to-[#4a84cf]"
+                  bg-gradient-to-r title from-[#ffffff] to-[#4a84cf]"
                   >
                     soluções tecnológicas
                   </span>
                 </h1>
                 <p
                   className="mt-6 max-w-lg mx-auto py-12 sm:py-4 text-center 
-                font-normal text-[15px] text-slate-200 sm:max-w-3xl"
+                font-normal text-xl text-slate-200 sm:max-w-3xl"
                 >
                   Abraçamos a missão de ser muito mais do que um simples
                   provedor de tecnologia. Com uma dedicação incessante à
@@ -48,7 +49,7 @@ export default function Hero() {
                     <a
                       href="/quemsomos"
                       className="flex flex-row items-center text-center align-top px-6 py-3
-                     border border-transparent text-[15px] font-normal rounded-md shadow-sm
+                     border border-transparent text-lg font-normal rounded-md shadow-sm
                      text-gray-800  bg-white hover:bg-indigo-100 sm:px-8"
                     >
                       Conheça mais

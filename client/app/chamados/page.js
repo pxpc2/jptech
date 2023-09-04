@@ -96,12 +96,12 @@ export default function Chamados() {
         </svg>
         <div className="text-center">
           <h1
-            className="text-3xl font-medium tracking-tight bg-clip-text text-transparent bg-gradient-to-r
+            className="text-3xl title font-medium tracking-tight bg-clip-text text-transparent bg-gradient-to-r
          from-[#4367b6] to-[#0f2541] sm:text-4xl"
           >
             Abertura de Chamado
           </h1>
-          <p className="mt-4 text-[15px] font-normal leading-7 text-gray-500">
+          <p className="mt-4 text-lg font-normal text-gray-500">
             Preencha o formulário abaixo. Nós lhe retornaremos
             <br />
             em até 48 horas!
@@ -112,13 +112,13 @@ export default function Chamados() {
           <form
             action="#"
             method="POST"
-            className="grid grid-cols-1 text-[15px] gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+            className="grid grid-cols-1 text-lg gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             onSubmit={handleSubmit(onSubmit)}
           >
             <div>
               <label
                 htmlFor="first-name"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Nome
               </label>
@@ -139,7 +139,7 @@ export default function Chamados() {
             <div>
               <label
                 htmlFor="orgao"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Orgão
               </label>
@@ -160,7 +160,7 @@ export default function Chamados() {
             <div className="col-span-2">
               <label
                 htmlFor="phone"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Telefone para contato
               </label>
@@ -181,7 +181,7 @@ export default function Chamados() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Email
               </label>
@@ -202,7 +202,7 @@ export default function Chamados() {
             <div className="">
               <label
                 htmlFor="licitacao"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Número da licitação
               </label>
@@ -222,7 +222,7 @@ export default function Chamados() {
             <div className="">
               <label
                 htmlFor="contrato"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Número do contrato
               </label>
@@ -242,7 +242,7 @@ export default function Chamados() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Mensagem
               </label>
@@ -266,7 +266,7 @@ export default function Chamados() {
                 type="submit"
                 className="w-full inline-flex items-center justify-center
                px-6 py-3 border border-transparent rounded-md shadow-sm 
-               text-base font-normal text-white bg-jptech-brand-blue
+               text-lg font-normal text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue focus:outline-none focus:ring-2 
                 focus:ring-offset-2 focus:ring-indigo-500"
               >

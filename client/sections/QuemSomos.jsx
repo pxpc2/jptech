@@ -5,19 +5,20 @@ export default function QuemSomosHero() {
     <div className="py-16 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
         <div className="text-base max-w-prose mx-auto lg:max-w-none">
-          <h1 className="text-slate-800 font-medium uppercase">Quem Somos</h1>
-          <p
-            className="mt-2 text-3xl leading-8 font-medium bg-clip-text text-transparent bg-gradient-to-r
-           from-[#4367b6] to-[#0f2541] sm:text-4xl"
+          <p className="text-lg text-jptech-brand-blue font-medium tracking-wide">Quem Somos</p>
+          <h1
+            className="pb-2 text-3xl leading-8 font-semibold bg-clip-text
+             text-transparent bg-gradient-to-r
+           from-[#4367b6] title to-[#0f2541] sm:text-4xl"
           >
             Conheça nossa história
-          </p>
+          </h1>
         </div>
         <div
           className="relative z-10 text-base max-w-prose mx-auto
          lg:max-w-5xl lg:mx-0 lg:pr-72"
         >
-          <p className="text-[15px] font-normal leading-7 text-gray-500 md:mt-[-2%] md:mb-[10%]">
+          <p className="text-lg font-normal text-gray-500 md:mt-[-2%] md:mb-[10%]">
             Somos uma empresa em ascensão no mercado de TI, dedicada a fornecer
             soluções tecnológicas de ponta para empresas e instituições
             governamentais. Com um amplo portfólio de produtos e serviços,
@@ -28,7 +29,7 @@ export default function QuemSomosHero() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-3 lg:items-start">
           <div className="relative z-10">
             <div
-              className="mt-[-25px] text-[15px] leading-7 pr-12
+              className="mt-[-25px] text-lg pr-12
              text-gray-500 mx-auto text-left lg:max-w-none"
             >
               <p className="font-normal">
@@ -54,7 +55,7 @@ export default function QuemSomosHero() {
                 <a
                   href="/nossos-produtos"
                   className="w-full flex items-center justify-center px-5 py-3 border
-                 border-transparent text-base font-normal rounded-md text-white
+                 border-transparent text-lg font-normal rounded-md text-white
                   bg-jptech-brand-blue hover:bg-jptech-brand-lighterblue"
                 >
                   Nossos Produtos
@@ -64,7 +65,7 @@ export default function QuemSomosHero() {
                 <a
                   href="/contato"
                   className="w-full flex items-center justify-center px-5 py-3 border
-                 border-transparent text-base font-normal rounded-md text-jptech-brand-blue
+                 border-transparent text-lg font-normal rounded-md text-jptech-brand-blue
                   bg-white hover:bg-gray-50"
                 >
                   Fale Conosco
@@ -114,7 +115,7 @@ export default function QuemSomosHero() {
                   width={300}
                   height={100}
                 />
-                <div className="relative text-[15px] leading-7 text-gray-700 font-normal mt-8">
+                <div className="relative text-lg text-gray-700 font-normal mt-8">
                   <svg
                     className="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200"
                     fill="currentColor"

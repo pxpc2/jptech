@@ -96,12 +96,12 @@ export default function Contato() {
         </svg>
         <div className="text-center">
           <h1
-            className="text-3xl font-medium tracking-tight bg-clip-text text-transparent bg-gradient-to-r
+            className="text-3xl title font-medium tracking-tight bg-clip-text text-transparent bg-gradient-to-r
          from-[#4367b6] to-[#0f2541] sm:text-4xl"
           >
             Entre em contato
           </h1>
-          <p className="mt-4 text-[15px] leading-6 text-gray-500">
+          <p className="mt-4 text-lg leading-6 text-gray-500">
             Conecte-se conosco. Estamos ansiosos para ouvir você!
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function Contato() {
             <div>
               <label
                 htmlFor="first-name"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Nome
               </label>
@@ -137,7 +137,7 @@ export default function Contato() {
             <div>
               <label
                 htmlFor="phone"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Telefone para contato
               </label>
@@ -158,7 +158,7 @@ export default function Contato() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Email
               </label>
@@ -179,7 +179,7 @@ export default function Contato() {
             <div className="sm:col-span-2">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm sm:text-lg font-medium text-gray-700"
               >
                 Mensagem
               </label>
@@ -203,7 +203,7 @@ export default function Contato() {
                 type="submit"
                 className="w-full inline-flex items-center justify-center
                px-6 py-3 border border-transparent rounded-md shadow-sm 
-               text-base font-normal text-white bg-jptech-brand-blue
+               text-lg font-normal text-white bg-jptech-brand-blue
                 hover:bg-jptech-brand-lighterblue focus:outline-none focus:ring-2 
                 focus:ring-offset-2 focus:ring-indigo-500"
               >

@@ -76,7 +76,7 @@ export default function Footer() {
                 <div key={item.name} className="px-5 py-2">
                   <a
                     href={item.href}
-                    className="text-base font-normal text-gray-400  hover:text-slate-200"
+                    className="text-lg font-normal text-gray-400  hover:text-slate-200"
                   >
                     {item.name}
                   </a>
@@ -88,7 +88,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-gray-400 hover:text-gray-500"
+                  className="text-gray-400 text-lg hover:text-gray-500"
                 >
                   <span className="sr-only">{item.name}</span>
                   <item.icon className="h-6 w-6" aria-hidden="true" />

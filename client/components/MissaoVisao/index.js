@@ -20,10 +20,10 @@ export default function MissaoVisao() {
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-[25px] font-medium text-jptech-brand-blue">
+                <h2 className="text-3xl title font-medium text-jptech-brand-blue">
                   Missão
                 </h2>
-                <p className="mt-4 text-[15px] leading-7 text-gray-500">
+                <p className="mt-4 text-lg  text-gray-500">
                   Desenvolver nossa própria linha de produtos de TI, trazendo
                   soluções tecnológicas personalizadas, responsáveis por
                   impulsionar o desenvolvimento e a transformação do ambiente de
@@ -34,7 +34,7 @@ export default function MissaoVisao() {
             <div className="mt-8 border-t border-gray-200 pt-6">
               <blockquote>
                 <div>
-                  <p className="text-base text-gray-500">
+                  <p className="text-lg text-gray-500">
                     &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed
                     diam. Sit orci risus aenean curabitur donec aliquet. Mi
                     venenatis in euismod ut.&rdquo;
@@ -49,7 +49,7 @@ export default function MissaoVisao() {
                         alt=""
                       />
                     </div>
-                    <div className="text-base font-medium text-gray-700">
+                    <div className="text-lg font-medium text-gray-700">
                       João Pedro, CEO.
                     </div>
                   </div>
@@ -84,10 +84,10 @@ export default function MissaoVisao() {
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-[25px] font-medium  text-jptech-brand-blue">
+                <h2 className="text-3xl title font-medium  text-jptech-brand-blue">
                   Visão
                 </h2>
-                <p className="mt-4 text-[15px] leading-7 text-gray-500">
+                <p className="mt-4 text-lg text-gray-500">
                   Almejamos ser a escolha indiscutível em tecnologia para
                   empresas e instituições governamentais. Nosso nome será
                   sinônimo de referência, destacando-nos por nossa excelência,

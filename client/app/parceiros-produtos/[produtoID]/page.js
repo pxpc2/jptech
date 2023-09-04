@@ -52,7 +52,7 @@ export default function Produto({ params }) {
           <div className="lg:grid lg:grid-cols-12 lg:auto-rows-min lg:gap-x-8">
             <div className="lg:col-start-8 lg:col-span-5">
               <div className="flex justify-between">
-                <h1 className="text-xl font-medium text-gray-900">{title}</h1>
+                <h1 className="text-2xl title font-medium text-gray-900">{title}</h1>
                 {/*<p className="text-xl font-medium text-gray-900">
                   {product.price}
                 </p>*/}
@@ -77,7 +77,7 @@ export default function Produto({ params }) {
                 {/* Variações */}
                 <div className="mt-2">
                   <div className="flex items-center justify-between">
-                    <h2 className="text-sm font-medium text-gray-900">
+                    <h2 className="text-base font-medium text-gray-900">
                       Opções
                     </h2>
                   </div>
@@ -103,7 +103,7 @@ export default function Produto({ params }) {
                               checked
                                 ? 'bg-jptech-brand-blue border-transparent text-white hover:bg-jptech-brand-blue'
                                 : 'bg-white border-gray-200 text-gray-900 hover:bg-gray-50',
-                              'border rounded-md py-3 px-3 flex items-center justify-center text-sm font-medium uppercase sm:flex-1'
+                              'border rounded-md py-3 px-3 flex items-center justify-center text-base font-medium uppercase sm:flex-1'
                             )
                           }
                         >
@@ -120,7 +120,7 @@ export default function Produto({ params }) {
                   type="submit"
                   className="mt-8 w-full bg-jptech-brand-blue border
                    border-transparent rounded-md py-3 px-8 flex items-center 
-                   justify-center text-base font-normal text-white
+                   justify-center text-lg font-normal text-white
                     hover:bg-jptech-brand-lighterblue focus:outline-none 
                     focus:ring-2 focus:ring-offset-2 focus:ring-jptech-brand-blue"
                 >
@@ -130,20 +130,20 @@ export default function Produto({ params }) {
 
               {/* Informação do produto */}
               <div className="mt-10">
-                <h2 className="text-sm font-medium text-gray-900">Descrição</h2>
+                <h2 className="text-lg font-medium text-gray-900">Descrição</h2>
 
                 <div
-                  className="mt-4 prose prose-sm text-gray-500"
+                  className="mt-4 prose prose-sm text-base text-gray-500"
                   dangerouslySetInnerHTML={{ __html: description }}
                 />
               </div>
 
               <div className="mt-8 border-t border-gray-200 pt-8">
-                <h2 className="text-sm font-medium text-gray-900">
+                <h2 className="text-base font-medium text-gray-900">
                   Especificações técnicas
                 </h2>
 
-                <div className="mt-4 prose prose-sm text-gray-500">
+                <div className="mt-4 prose prose-sm text-base text-gray-500">
                   <ul role="list">
                     {product.details.map((item) => (
                       <li key={item}>{item}</li>

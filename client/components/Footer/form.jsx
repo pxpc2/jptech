@@ -25,10 +25,10 @@ export default function NewsletterFooter() {
 
   return (
     <div className="mt-8 xl:mt-0">
-      <h3 className="text-sm font-medium text-gray-400 tracking-wider uppercase">
+      <h3 className="text-base font-medium text-gray-300 tracking-wider uppercase">
         Cadastre seu email e receba nossas novidades!
       </h3>
-      <p className="mt-4 text-sm text-gray-300">
+      <p className="mt-4 text-base text-gray-400">
         Se inscreva em nossa correspondência e esteja sempre ciente de novos
         produtos e promoções!
       </p>

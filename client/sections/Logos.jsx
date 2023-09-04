@@ -6,13 +6,13 @@ export default function Marcas() {
       <div className="container m-auto space-y-8 px-6 text-gray-500 md:px-12 lg:px-40">
         <div className="mb-8">
           <h6
-            className="text-[40px] pb-4 text-center font-medium
+            className="text-[40px] pb-4 text-center title font-medium
             bg-clip-text text-transparent 
             bg-gradient-to-r from-[#4367b6] to-[#0f2541] transition hover:scale-105"
           >
             As melhores marcas do mercado.
           </h6>
-          <p className="text-center pb-8">
+          <p className="text-center text-lg pb-8">
             Trabalhamos com os maiores, garantindo desempenho, eficiência,
             durabilidade e segurança aos nossos clientes.
             <br />

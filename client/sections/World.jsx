@@ -5,7 +5,7 @@ export default function Solucoes() {
     <div className="max-w-7xl mx-auto sm:px-12">
       <div
         className="relative shadow-lg hover:shadow-2xl 
-      duration-500 sm:rounded-2xl sm:overflow-hidden bg-gray-200 bg-opacity-20 my-20"
+      duration-500 sm:rounded-2xl sm:overflow-hidden bg-gray-200 bg-opacity-40 my-20"
       >
         {' '}
         <div
@@ -25,12 +25,12 @@ export default function Solucoes() {
             <div className="flex flex-col sm:flex-row flex-nowrap sm:w-[500px]">
               <h1
                 className="text-gray-800 text-2xl sm:text-[40px] text-center
-               sm:text-left  font-medium sm:leading-[48px] sm:w-[400px]"
+               sm:text-left title font-medium sm:leading-[48px] sm:w-[400px]"
               >
                 Levamos a inovação tecnológica para&nbsp;
                 <span
                   className="bg-clip-text font-medium text-transparent
-                 bg-gradient-to-r from-[#27478d] to-[#2a6ec7]"
+                 bg-gradient-to-r from-[#27478d] to-[#2a6ec7] title"
                 >
                   todo
                 </span>{' '}
@@ -39,8 +39,9 @@ export default function Solucoes() {
             </div>
 
             <p
-              className="text-slate-800 font-normal text-sm leading-7 sm:text-md sm:w-[400px]
-             text-center pb-8 ease-in-out duration-500 hover:underline  sm:text-left"
+              className="text-slate-800 font-normal text-sm leading-7 sm:text-lg
+               sm:w-[400px] text-center pb-8 ease-in-out duration-500
+                 sm:text-left"
             >
               Com uma abordagem que transcende fronteiras, estamos empenhados em
               difundir a inovação tecnológica por todo o Brasil. Do Norte ao

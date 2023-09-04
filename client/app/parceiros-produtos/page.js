@@ -44,20 +44,20 @@ export default async function ProdutosQuinyx() {
                group-hover:opacity-80 transition-opacity"
               >
                 <span
-                  className="text-white text-sm rounded-lg bg-jptech-brand-blue
+                  className="text-white text-base rounded-lg bg-jptech-brand-blue
                  bg-opacity-100 p-3"
                 >
                   Saiba mais
                 </span>
               </div>
               <div className="flex-1 p-4 gap-2 space-y-2 flex flex-col">
-                <h3 className="text-sm font-medium text-gray-900">
+                <h3 className="text-lg font-medium text-gray-900">
                   <a href={`/parceiros-produtos/${item.id}`}>
                     <span aria-hidden="true" className="absolute inset-0" />
                     {item.title}
                   </a>
                 </h3>
-                <p className="text-xs text-gray-500 overflow-hidden line-clamp-3">
+                <p className="text-base text-gray-500 overflow-hidden line-clamp-3">
                   {item.description}
                 </p>
                 <div className="flex-1 flex flex-col justify-end">
