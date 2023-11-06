@@ -29,7 +29,7 @@ export default function Hero() {
                     Seu parceiro em
                   </span>
                   <span
-                    className="bg-clip-text font-bold text-transparent 
+                    className="bg-clip-text font-semibold text-transparent 
                   bg-gradient-to-r title from-[#ffffff] to-[#4a84cf]"
                   >
                     soluções tecnológicas
