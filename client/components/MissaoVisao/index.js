@@ -35,9 +35,8 @@ export default function MissaoVisao() {
               <blockquote>
                 <div>
                   <p className="text-lg text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed
-                    diam. Sit orci risus aenean curabitur donec aliquet. Mi
-                    venenatis in euismod ut.&rdquo;
+                    &ldquo;Nosso comprometimento é com a inovação responsável,
+                    trazendo valor duradouro aos nossos clientes.&rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">

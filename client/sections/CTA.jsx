@@ -109,20 +109,33 @@ export default function CTA() {
               >
                 Conheça nossa empresa
               </h2>
-              <p className="text-lg font-light text-center 
-              sm:text-left text-slate-400">
+              <p
+                className="text-lg font-light text-center 
+              sm:text-justify text-slate-400"
+              >
                 Explore a amplitude e a qualidade que definem nossos produtos e
                 soluções. Nossa busca incansável pela excelência é o que nos
                 diferencia no cenário tecnológico
               </p>
-              <a
-                className="block w-full py-3 px-5 text-center bg-slate-100 border
+              <div className="w-full flex gap-8">
+                <a
+                  className="block w-full py-3 px-3 text-center bg-slate-100 border
                  border-transparent rounded-md shadow-md text-lg font-regular
-                 text-gray-800 hover:bg-gray-200 sm:inline-block sm:w-auto"
-                href="/parceiros-produtos"
-              >
-                Veja produtos de parceiros
-              </a>
+                 text-gray-800 hover:bg-gray-200 sm:inline-block"
+                  href="/parceiros-produtos"
+                >
+                  Produtos Parceiros
+                </a>
+                <a
+                  className="block w-full py-3 px-3 text-center bg-slate-100 border
+                 border-transparent rounded-md shadow-md text-lg font-regular
+                 text-gray-800 hover:bg-gray-200 sm:inline-block "
+                  href="/parceiros-produtos"
+                >
+                  Nossos Produtos
+                </a>
+              </div>
+
               <Image
                 src={'/logos/mainlogo.jpg'}
                 alt="logo"

@@ -41,7 +41,7 @@ export default function Solucoes() {
             <p
               className="text-slate-800 font-normal text-sm leading-7 sm:text-lg
                sm:w-[400px] text-center pb-8 ease-in-out duration-500
-                 sm:text-left"
+                 sm:text-justify"
             >
               Com uma abordagem que transcende fronteiras, estamos empenhados em
               difundir a inovação tecnológica por todo o Brasil. Do Norte ao

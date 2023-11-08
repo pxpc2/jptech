@@ -38,7 +38,10 @@ export default function Header() {
   return (
     <header className="z-10">
       <Popover className="relative bg-white">
-        <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
+        <div
+          className="flex justify-between items-center max-w-7xl mx-auto px-4 py-3 sm:px-6 md:justify-start md:space-x-10 lg:px-8
+        border-b-2 border-gray-200"
+        >
           <div className="flex justify-start lg:w-0 lg:flex-1">
             <a href="/">
               <span className="sr-only">Workflow</span>

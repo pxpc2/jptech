@@ -127,6 +127,7 @@ export default function Chamados() {
                   type="text"
                   name="first-name"
                   id="first-name"
+                  required={true}
                   placeholder="Seu nome e sobrenome"
                   autoComplete="given-name"
                   className="py-3 px-4 block w-full shadow-sm 
@@ -148,6 +149,7 @@ export default function Chamados() {
                   type="text"
                   name="orgao"
                   id="orgao"
+                  required={true}
                   placeholder="Aonde você trabalha?"
                   autoComplete="orgao"
                   className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
@@ -169,6 +171,7 @@ export default function Chamados() {
                   type="text"
                   name="phone"
                   id="phone"
+                  required={true}
                   autoComplete="phone"
                   placeholder="+55 61 93333-3333"
                   className="py-3 px-4 block w-full shadow-sm focus:outline-none focus:ring-1
@@ -188,6 +191,7 @@ export default function Chamados() {
               <div className="mt-1">
                 <input
                   id="email"
+                  required={true}
                   name="email"
                   type="email"
                   placeholder="Seu email"
@@ -209,6 +213,7 @@ export default function Chamados() {
               <div className="mt-1">
                 <input
                   type="text"
+                  required={true}
                   name="licitacao"
                   id="licitacao"
                   autoComplete="licitacao"
@@ -229,6 +234,7 @@ export default function Chamados() {
               <div className="mt-1">
                 <input
                   type="text"
+                  required={true}
                   name="contrato"
                   id="contrato"
                   autoComplete="contrato"
@@ -251,7 +257,8 @@ export default function Chamados() {
                   id="message"
                   name="message"
                   rows={4}
-                  placeholder="Escreva seu texto aqui..."
+                  required={true}
+                  placeholder="Escreva seu caso aqui..."
                   className="py-3 px-4 block w-full shadow-sm
                   focus:outline-none focus:ring-1
                   focus:border-jptech-brand-blue focus:ring-jptech-brand-blue border
@@ -270,7 +277,7 @@ export default function Chamados() {
                 hover:bg-jptech-brand-lighterblue focus:outline-none focus:ring-2 
                 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Enviar mensagem!
+                Enviar mensagem
               </button>
             </div>
           </form>

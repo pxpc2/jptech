@@ -21,7 +21,7 @@ export default function Marcas() {
               className="underline hover:text-jptech-brand-blue
             text-black"
             >
-              Entre em contato agora!
+              Entre em contato aqui
             </a>
           </p>
         </div>

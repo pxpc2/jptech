@@ -124,6 +124,7 @@ export default function Contato() {
                 <input
                   type="text"
                   name="first-name"
+                  required={true}
                   id="first-name"
                   placeholder="Seu nome completo"
                   autoComplete="given-name"
@@ -144,6 +145,7 @@ export default function Contato() {
               <div className="mt-1">
                 <input
                   type="text"
+                  required={true}
                   name="phone"
                   placeholder="+55 61 93333-3333"
                   id="phone"
@@ -167,6 +169,7 @@ export default function Contato() {
                   id="email"
                   name="email"
                   type="email"
+                  required={true}
                   placeholder="Seu email"
                   autoComplete="email"
                   className="py-3 px-4 block w-full shadow-sm border border-gray-300
@@ -187,6 +190,7 @@ export default function Contato() {
                 <textarea
                   id="message"
                   name="message"
+                  required={true}
                   placeholder="Escreva seu texto aqui..."
                   rows={4}
                   className="py-3 px-4 block w-full shadow-sm
@@ -207,7 +211,7 @@ export default function Contato() {
                 hover:bg-jptech-brand-lighterblue focus:outline-none focus:ring-2 
                 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Enviar mensagem!
+                Enviar mensagem
               </button>
             </div>
           </form>

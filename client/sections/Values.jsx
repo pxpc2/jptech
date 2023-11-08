@@ -1,33 +1,34 @@
 import {
-  GlobeAltIcon,
   LightningBoltIcon,
-  MailIcon,
-  ScaleIcon,
+  TruckIcon,
+  BadgeCheckIcon,
+  SparklesIcon,
+  PhoneIcon,
 } from '@heroicons/react/outline';
 
 const features = [
   {
     name: 'Logística de frete',
     description: 'Entrega em todo o território brasileiro com agilidade.',
-    icon: GlobeAltIcon,
+    icon: TruckIcon,
   },
   {
     name: 'Serviço de Garantia',
     description:
       'Se estende a todo o território nacional com atendimento on-site e remoto.',
-    icon: ScaleIcon,
+    icon: BadgeCheckIcon,
   },
   {
     name: 'Marcas Referência',
     description:
       'Nosso compromisso com a excelência: Parceria com as marcas mais renomadas do mercado.',
-    icon: MailIcon,
+    icon: SparklesIcon,
   },
   {
     name: 'Atendimento',
     description:
       'Facilidade e agilidade na comunicação com clientes e interessados',
-    icon: LightningBoltIcon,
+    icon: PhoneIcon,
   },
 ];
 
@@ -73,8 +74,10 @@ export default function Values() {
 
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
-            <h2 className="text-3xl font-medium title tracking-tight 
-            sm:text-[40px] leading-snug">
+            <h2
+              className="text-3xl font-medium title tracking-tight 
+            sm:text-[40px] leading-snug"
+            >
               Os diferenciais que você precisa.
             </h2>
           </div>
@@ -85,8 +88,10 @@ export default function Values() {
             {features.map((feature) => (
               <div key={feature.name}>
                 <dt>
-                  <div className="flex items-center justify-center
-                   h-12 w-12 rounded-md bg-jptech-brand-blue text-white">
+                  <div
+                    className="flex items-center justify-center
+                   h-12 w-12 rounded-md bg-jptech-brand-blue text-white"
+                  >
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
                   <p className="mt-5 text-lg font-medium text-slate-800 hover:underline">

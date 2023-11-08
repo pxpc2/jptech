@@ -5,7 +5,9 @@ export default function QuemSomosHero() {
     <div className="py-16 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8">
         <div className="text-base max-w-prose mx-auto lg:max-w-none">
-          <p className="text-lg text-jptech-brand-blue font-medium tracking-wide">Quem Somos</p>
+          <p className="text-lg text-jptech-brand-blue font-medium tracking-wide">
+            Quem Somos
+          </p>
           <h1
             className="pb-2 text-3xl leading-8 font-semibold bg-clip-text
              text-transparent bg-gradient-to-r
@@ -14,24 +16,22 @@ export default function QuemSomosHero() {
             Conheça nossa história
           </h1>
         </div>
-        <div
-          className="relative z-10 text-base max-w-prose mx-auto
-         lg:max-w-5xl lg:mx-0 lg:pr-72"
-        >
-          <p className="text-lg font-normal text-gray-500 md:mt-[-2%] md:mb-[10%]">
-            Somos uma empresa em ascensão no mercado de TI, dedicada a fornecer
-            soluções tecnológicas de ponta para empresas e instituições
-            governamentais. Com um amplo portfólio de produtos e serviços,
-            estamos prontos para atender a diversas necessidades, sempre
-            oferecendo suporte personalizado aos nossos clientes.
-          </p>
-        </div>
+
         <div className="lg:grid lg:grid-cols-2 lg:gap-3 lg:items-start">
           <div className="relative z-10">
             <div
               className="mt-[-25px] text-lg pr-12
-             text-gray-500 mx-auto text-left lg:max-w-none"
+             text-gray-500 mx-auto text-justify lg:max-w-none"
             >
+              <p className="text-lg font-normal text-gray-500 sm:mt-5">
+                Somos uma empresa em ascensão no mercado de TI, dedicada a
+                fornecer soluções tecnológicas de ponta para empresas e
+                instituições governamentais. Com um amplo portfólio de produtos
+                e serviços, estamos prontos para atender a diversas
+                necessidades, sempre oferecendo suporte personalizado aos nossos
+                clientes.
+              </p>
+              <br />
               <p className="font-normal">
                 Nossa gama de produtos inclui desktops, notebooks,
                 microcomputadores, tablets, drones, periféricos de informática
